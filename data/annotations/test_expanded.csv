@@ -1,0 +1,466 @@
+conversation_id,text,intent,label_source,resolved_candidate,resolution_score
+conv_1721736,@AmazonHelp can i add money to my amazon gift card balance through my tcf debit card if so how,billing_payment,rule_single,True,0
+conv_597903,When @115830 claim that your order has been posted through the letter box when in fact you've been sat in all day waiting and not a thing has been delivered... #noton @AmazonHelp,delivery_issue,rule_single,True,3
+conv_1177323,@AmazonHelp  sir i am rohit vijan i have purchased fitbit altra hr so i returned the product on 11 nov since 25 nov my refund isn't initiated till yet. I am the prime customer of amazon is that service u provide to customers order id  404-8920760-5106753. https://t.co/DWlrVTaUeo,refund_return,rule_multi,True,2
+conv_268154,"@AmazonHelp Hi, if I get the 6 month student trial, can I get twitch prime or Not?",prime_subscription,rule_single,True,0
+conv_2384569,What's the use of prime then? @AmazonHelp @115850 https://t.co/hRSXez7oVK,prime_subscription,rule_single,True,0
+conv_2590196,"Thank You @AmazonHelp @115821 @115850 for cancelling my order.
+I just wanna request you to refund the payment as early as possible as it is an EMI purchase and i dont wanna pay any extra charges now. https://t.co/F7ZTXNvzlP",resolution_confirmation,rule_multi,True,2
+conv_332398,A msg to anyone that has an amazon account! @115821 @115830 @AmazonHelp took £79.99 of us by signing us upto amazon prime without consent,prime_subscription,rule_single,True,2
+conv_349897,"Thanks @AmazonHelp for the assistance and speedy resolution with my order, didn’t have to jump through hoops 👌🏽",resolution_confirmation,rule_single,True,2
+conv_437899,@AmazonHelp @115850  still waiting. To hear from you. Just admins it you were in this fraud. 😎 https://t.co/m9jvOSUAn6,escalation_needed,rule_single,True,0
+conv_2830758,@AmazonHelp why can’t you get the Echo Plus with a free bayonet bulb for £109 instead of a free screw fit bulb? Thanks,technical_device,rule_single,True,1
+conv_810232,@AmazonHelp hey my account has been breached but I can't contact Amazon because I can't log in. Do you have a regular email?,account_access,rule_single,True,2
+conv_656136,@AmazonHelp what's happening here with Alexa? https://t.co/xaoHmqqffp,technical_device,rule_single,True,2
+conv_132459,@AmazonHelp unable to get past the selecting the delivery address screen on your app. #BlackFriday2017,non_english,rule_multi,True,2
+conv_2953672,cc @AmazonHelp what’s wrong ! I can’t login 🤷🏻‍♂️,account_access,rule_single,True,5
+conv_1325559,Ou est mon colis @120533 @AmazonHelp  num de suivi : 1zay35976826890919,non_english,rule_single,True,0
+conv_2896034,"@AmazonHelp Hi, I cancelled an order on Friday and I'm just wondering how soon the money will go back to my bank account, as I re-ordered the items?",billing_payment,rule_single,True,1
+conv_179831,@AmazonHelp I ordered on July 25th. I still do not receive anything and you already charged me. It doesn't let me cancel. Unacceptable. 😡😡😡 https://t.co/fVHv7s0nnw,account_access,rule_conflict,True,1
+conv_310235,@AmazonHelp I have the original Fire tv box. I was going to preorder the new Fire stick ultra HD 4k. Can that be used on a 1080 HD Samsung?,technical_device,rule_single,True,2
+conv_2136234,@AmazonHelp I am sure the other day I signed up for a free £10 voucher on my fire stick but how do I know if it is still valid?!,technical_device,rule_single,True,1
+conv_419186,@AmazonHelp hey my tracking id is 770445658368 it is supposed to be delivered today. But I have not received number of delivery boy.,delivery_issue,rule_single,True,1
+conv_921468,@AmazonHelp My brother received an email that I made a purchase on his card (which I didn't) who do I contact to get clarification? Was only 99c but we have no idea what it is,billing_payment,golden,True,0
+conv_763067,Annndddd the delivery people are late. Again. Fail @115821 @AmazonHelp,delivery_issue,rule_single,True,0
+conv_1728631,@AmazonHelp Who can I email to help with a log on issue? I'm resetting my password but it's not recognising it when I try and log on,account_access,rule_single,True,1
+conv_498510,@AmazonHelp I know you have a returns policy but I am a bit concerned that I had to point out that it wasn't exactly safe to post a broken ceramic item back for a refund! (Didn't want the postie getting injured!),refund_return,rule_single,True,1
+conv_2901053,"@AmazonHelp I got an email that there was an attempt to connect to my account and I was provided with a security code to use, I changed my password to secure my account but when ever I am trying to sign in using my new or old password I can not sign in to my account please advice",account_access,rule_single,True,2
+conv_320077,Hey @AmazonHelp ! Sind euch Probleme beim Alexa-Service bekannt? Ich bekomme keine Verbindung mit meinem Echo. Neustart etc. schon probiert.,non_english,rule_multi,True,0
+conv_1502859,"@AmazonHelp login &gt; says im authorized to my merchant based on CID/MCID &gt; ""go to homepage button"" isn't working, redirects to same page.",account_access,rule_single,True,0
+conv_328021,"@AmazonHelp how do i talk 2 someone about a complaint,had an email today but the complaint has been misunderstood I am still really unhappy",escalation_needed,rule_single,True,1
+conv_2405077,"@AmazonHelp Hey, bekomme beim start vom Amazon Prime Video Stream den Fehlercode 7031...",prime_subscription,rule_single,True,0
+conv_332424,"@AmazonHelp prime order been waiting since Friday, still not here and not much help having emailed and spoken to CS - unhappy",prime_subscription,rule_single,True,1
+conv_2171032,@AmazonHelp How to stream Amazon prime video on my Sony TV.,prime_subscription,rule_single,True,2
+conv_743282,@AmazonHelp @115850 @117795  u all useless people atleast have d courtesy to reply ma complaint. I need refund ASAP.,escalation_needed,rule_multi,True,0
+conv_929232,"@AmazonHelp I placed a Prime order, which is now 9 days overdue. I've tried contacting Amazon about this, but have no reply yet. Help pls?",prime_subscription,rule_single,True,0
+conv_1254559,@amazonhelp I’m experiencing a bug with the new Amazon FireTV when playing back HDR content on an LG OLED television. Can you help?,technical_device,rule_single,True,2
+conv_954303,@AmazonHelp you damaged &amp;returned my item and refuse to replace it. Its an addon item &amp; told me to have it replaced I have to buy more stuff,order_problem,golden,True,5
+conv_2283976,"@AmazonHelp I have a defective item that I need to return. Quiklok ql742 keyboard stand, however I don't have the box anymore. Would a return still be accepted. Can I get a refund without returning?",refund_return,rule_single,True,1
+conv_1625064,"@AmazonHelp I m Prime Member, still many products are labelled as not eligible. Why? What's the use of prime membership then?",prime_subscription,rule_single,True,0
+conv_1576233,@AmazonHelp Amazon Music not streaming well over multiple devices.,technical_device,rule_single,True,0
+conv_1427916,Grrr. Getting the #Echo setup is a humongous task. I seem to be failing at it. @115821 @AmazonHelp @115850,technical_device,rule_single,True,1
+conv_812100,@116875 @AmazonHelp Hola !! Me pueden ayudar a aplicar un saldo a favor de una devolución para hacer nuevamente una compra,non_english,rule_single,True,0
+conv_1449052,@AmazonHelp If I pre order a digital game code will I be available to get it as soon as it releases (midnight)?,order_problem,rule_single,True,1
+conv_2889316,"@AmazonHelp hello, it seems that the code generator is not working. Trying to reset my password and hitting a wall. Can you help ?",account_access,rule_single,True,0
+conv_348498,"@AmazonHelp terrible service, my girlfriend ordered a book, was supposed to reach September 26th. No news except courier details shared.",delivery_issue,rule_single,True,3
+conv_2438204,@115830 @AmazonHelp This is *your* pop-up window where *you* apparently sent my temp code to *that* (not known to me) email address! (1/2) https://t.co/GSFRMmqbf4,account_access,rule_single,True,1
+conv_1716731,Amazon ces vraiment du foutage de gueule colis non livré dans les temps pour une commande express et livraison repoussé @AmazonHelp,non_english,rule_single,True,0
+conv_1650419,@AmazonHelp Could you please get email support that understands English?  And fix your shop with points to work with my Chase Amazon card.,billing_payment,rule_single,True,1
+conv_852792,@AmazonHelp are you sending invitations for amazon echo? If yes when can i expect mine ?,technical_device,rule_single,True,0
+conv_637082,Hi @AmazonHelp @115830 do your delivery people think it's ok to throw parcels on the roof where no one can get them...? 2nd time they've done this https://t.co/8NGjKBo8wc,delivery_issue,rule_single,True,3
+conv_382761,@AmazonHelp @115850 there is a major problem with customer support team.. had a quite disturbing experience today...,escalation_needed,rule_single,True,3
+conv_210340,@115850  @AmazonHelp i need refund for my product  asap. I did not like the quality of the product . order no 405-0169564-8765159 .,refund_return,rule_single,True,1
+conv_1253634,Great customer service from @115850 @AmazonHelp they were able to get my delivery delivered with in 30mins of the issue. Thanks team,resolution_confirmation,rule_multi,True,1
+conv_480527,"@116439 @AmazonHelp also, this message does not even make sense because i’m not trying to buy a kindle! (p.s. i received the worst cust svc by phone. the worst.) https://t.co/jN15fUlmjU",technical_device,rule_single,True,1
+conv_114424,"@AmazonHelp hemos pasado de recibir hoy un pedido,a que debería llegar mañana o el lunes (porque era lo establecido)a que llegue el próximo viernes,cualquiera se fía de Amazon,menos mal que su fuerte es la puntualidad.",non_english,rule_single,True,0
+conv_64155,". @AmazonHelp I purchased Kindle cover which was about to deliver yesterday. Till the morning same status was in https://t.co/sunmZYKKA1 it is showing delivery by Monday. Why the fuck u offer prime membership if u hv to do all this.
+Order no:-  408-6217882-7253940",technical_device,rule_conflict,True,8
+conv_1568814,@115850 @AmazonHelp order an led tv in in a day delivery paid delivery charges today is the dlyvery date bt still item not shipped u guys are awsome and ur cs team are no1 they don't have any anwser as always &amp; yes its prepaid order,escalation_needed,rule_multi,True,3
+conv_367919,Hi @AmazonHelp why I don’t have access to Kindle Unlimited?,technical_device,rule_single,True,0
+conv_590779,"I think I’ve found a delivery service worse than FedEx/UPS. Why does @AmazonHelp continue to use these people for Prime shipping!? Worst. Worst. Worst. A week later, my guaranteed delivery is still not here. https://t.co/5uOuQP7aDc",delivery_issue,rule_multi,True,0
+conv_402205,@115821 @AmazonHelp is the firetv gen 3 out yet?! we need it for our new tv. 😍,technical_device,rule_single,True,1
+conv_2320495,@AmazonHelp on your app it says my parcels should of arrived by now but they haven’t. Can you track where they are?,non_english,rule_single,True,2
+conv_174538,"bonsoir @AmazonHelp j’aimerais acheter le Asus ROG FX502VM-DM265T PC portable Gamer 15"" Full HD mais il y a marquée indisponible alors qu’il y a marquée en stock le 28 novembre",non_english,rule_single,True,0
+conv_99986,"@AmazonHelp Hello, I'm unable to log into an account I probably haven't used in 3 years, but need to access. I've even reset the password twice but it's still not letting me in. Can you offer any support?",account_access,rule_single,True,0
+conv_333194,"@115850 @AmazonHelp 
+
+1. Didn't deliver by committed time by 8pm 
+2.Didnt even deliver the product. 
+
+Worst service ever.",delivery_issue,rule_single,True,3
+conv_2570919,@115850 hi i have downloaded the alexa app today but I'm unable to finish the installation! @AmazonHelp,non_english,rule_multi,True,1
+conv_1470760,"@AmazonHelp Hey,  i got this email when I tried to get an egift card. I was using a prepaid card so what do i do? https://t.co/nU0OJE54Vq",billing_payment,rule_single,True,2
+conv_403533,Really losing patience with @AmazonHelp now. Parcel due last wk. Wasn't delivered. Had to chase &amp; reorder. 3 days later still not delivered.,delivery_issue,rule_single,True,2
+conv_268652,@AmazonHelp I’ve restarted my device and everything. The banner still is not there.,technical_device,rule_single,True,2
+conv_386460,@115821 @AmazonHelp @115850 ORDER # 402-5123088-1378755. No money refunded .Promised several times .Its more than a month. #fakeAmazon,billing_payment,rule_single,True,1
+conv_394410,"@AmazonHelp Hi, book ordered on Prime yesterday due today not even dispatched yet. Still possible it could be on schedule?",prime_subscription,rule_single,True,1
+conv_749722,"@AmazonHelp im not able to login to my account and im getting an error ""We cannot find an account with that email address""!!!!",account_access,rule_single,True,2
+conv_2452525,@AmazonHelp Just received my Kindle Paperweight + it's saying that the Kindle Store is unavailable. Help!,technical_device,rule_single,True,1
+conv_2913221,"@AmazonHelp literally no response in over 24 hrs. Nevermind, I’ll just return the package and nip to Toys R Us!",escalation_needed,rule_multi,True,2
+conv_285148,Hey @amazonhelp What do I need to say to Alexa to get #AlmostLikePraying? from @183932 it keeps offering gospel legend Shirley Caesar,technical_device,rule_single,True,1
+conv_2560246,"@AmazonHelp @115850  at times my #Echo Dot triggers #Alexa  when i say ""accha"" during a conversation :-)",technical_device,rule_single,True,0
+conv_1380281,@AmazonHelp Hey Amazon! My ORDER # 402-5950542-4650755. Return schedule 2 time but no pickup (blue dart) . #WorstAmazonService,refund_return,rule_single,True,9
+conv_1312487,@AmazonHelp a prime eligible product takes 7 days to reach. What's the whole purpose of prime then?,prime_subscription,rule_single,True,2
+conv_611051,"@18350 selling Samsung A7 2017 at Rs 20990 but same mobile  device @115850 selling Rs   22990 , @AmazonHelp it is Cheating Indian customers click here Samsung official price https://t.co/rxSO3QKWnu @4031 Take Aganist about dis cheating..... https://t.co/8co9zMuVp7",technical_device,rule_single,True,0
+conv_1422347,@115851 @AmazonHelp Your return pickup for 404-7148114-1043526 has been scheduled for 02-Nov between 1:00PM-4:00PM.,refund_return,rule_single,True,1
+conv_320372,@AmazonHelp my order is out for delivery but I need to go out - Any way I can tell a realistic time of delivery?,delivery_issue,rule_single,True,4
+conv_227902,"Hi @AmazonHelp, placed an order for 12 books in August. 5 were supposed to arrive in September. However, I've received none. Kindly assist.",delivery_issue,rule_single,True,1
+conv_457734,@AmazonHelp Almost every “same day delivery” order I’ve placed in the past two months has arrived late. Today I placed my order two hours before the cut off time and the delivery has been pushed back again!,delivery_issue,rule_single,True,0
+conv_65870,"Fruad .fraud.@AmazonHelp @115850 @115821 i ordered TITAN neo  watch worth RS. 2369 on 23nov (orderno.-171-7293490-0802746). Delivered on Monday 27nov , when I opened this package,i found cheap quality used watch of another https://t.co/ZEXPbjHFId could Amazon do such cheap work https://t.co/gTp1M2hPls",escalation_needed,rule_multi,True,5
+conv_2830668,@AmazonHelp hi... we bought an echo plus but it will only play samples of music even though it was working fine on Saturday. How can we fix it? We have prime so it should play songs easily,technical_device,rule_conflict,True,1
+conv_530799,@AmazonHelp amazon told me a fraudulent purchase on my account had been cancelled but my money has now left my bank account - would like this resolved quickly?,billing_payment,rule_single,True,0
+conv_990761,@AmazonHelp its been more than 48hours your media escalation team asked for it,escalation_needed,rule_single,True,1
+conv_1433618,@AmazonHelp charger 4 new handheld vacuum snapped while connected. Prised out metal bit but it's unusable. Can I get replacement charger? https://t.co/RIwB2r6Y8T,refund_return,rule_single,True,0
+conv_1558043,"@AmazonHelp I just sent you a DM about an urgent issue with our Amazon Advantage account. We need help ASAP, how can we escalate? We've been emailing and calling all morning!",escalation_needed,rule_single,True,1
+conv_796432,"@AmazonHelp Hi, i want to renew the prime membership. How would i do that?",prime_subscription,rule_single,True,0
+conv_307913,@AmazonHelp a amazon prime member..I am signed up for twitch prime and I have not got my legends past 2 weeks ..twitch won't help me,prime_subscription,rule_single,True,0
+conv_665109,@AmazonHelp vocês podem me dizer se deu algum problema com os meus produtos na entrega ou se a demora é normal? sei que ainda ta no prazo +,non_english,rule_single,True,0
+conv_2387950,"Samstag habe ich einen #Amazon Echo bestellt. Heute ist Dienstag und statt Ware bekomme ich als Prime Kunde eine Mail, dass sich die Lieferung weiter verzögert. 
+Läuft super bei @AmazonHelp",technical_device,rule_conflict,True,0
+conv_505855,"Hey @115821 @AmazonHelp why do I pay for Prime when this routinely happens? Ordered on Monday, needed yesterday, now maybe it’ll arrive tomorrow? https://t.co/TqgB3OGhPo",delivery_issue,rule_multi,True,2
+conv_2504861,@AmazonHelp hello why does my amazon fire stick remote run out of barriers literally every week. It's very annoying,technical_device,rule_single,True,2
+conv_495808,@AmazonHelp let’s chat about my Prime order that missed its 2 day garuntee... #messageme,prime_subscription,rule_single,True,1
+conv_930106,"Mein Abend: In der Telefon-Warteschleife von @AmazonHelp hängen, weil @124285 mal wieder seinen Job nicht macht. 🙄",non_english,rule_single,True,0
+conv_1713826,@115821 @AmazonHelp @115850 i have added 500rs in amazon pay id __email__ mob no- 8303338858 order id-406-3587455-4139553,billing_payment,rule_single,True,1
+conv_438639,"@AmazonHelp your UX is terrible - locked out of my acct, reset pword 3x but still reading incorrect but must be logged in to contact support",account_access,rule_single,True,1
+conv_137059,@AmazonHelp I ordered things from amazon prime uk yesterday and I have been confirmed but the money hasn’t been withdrawn from my account? Is this normal as it’s my first time using amazon I’m confused,prime_subscription,rule_conflict,True,1
+conv_644101,@AmazonHelp any idea when my parcel arrive? Paid £5.99 for next day delivery as well. Q68324925443 ☹️😡,delivery_issue,rule_single,True,2
+conv_1423781,"@115850 
+@AmazonHelp where's my refund ? Enough of fleecing customers. https://t.co/RN4EBmTzIy",refund_return,rule_single,True,1
+conv_970804,"@115850 @AmazonHelp @AmazonHelp 
+Why not reply on twitter and explain to the world why does your escalation team lie?",escalation_needed,rule_single,True,0
+conv_118807,"I think my kindle is breaking 😳😳😳 how can I find out how old it is?? I can't find a date to see when I got it, @AmazonHelp can you help?",technical_device,rule_single,True,1
+conv_264997,"Gracias @116875 por mandarme mi artículo maltratado, golpeado e inservible. 
+✊🏻
+#AmazonApesta @AmazonHelp",non_english,rule_single,True,0
+conv_652071,"@AmazonHelp warum muss ich eine neue Zahlungsart hinterlegen, wenn ich einen Gutschein beim REWR gekauft habe?",non_english,rule_single,True,1
+conv_295374,"WHY HAS MY ALBUM NOT SHIPPED @AmazonHelp 
+
+Pls amazon pls",delivery_issue,rule_single,True,0
+conv_306155,@AmazonHelp I ordered a Netflix gift card yesterday &amp; I still haven't received the email with the card info &amp; I can't login to amazon.,account_access,rule_conflict,True,7
+conv_1298939,@AmazonHelp Is there a way to cancel my Amazon prime trial if my account has been locked?,account_access,rule_multi,True,1
+conv_2939242,"@AmazonHelp Hey Amazon, quick question. Why can I not order a Kindle to Czech Republic from the German Amazon Website? You can order everything elese expect the amazon products? What is the reson? #CuriousK",technical_device,rule_single,True,2
+conv_888271,"@AmazonHelp One of your support staff replied to my query with ""we're unable to process the refund as the denomination is too high"". Can you translate this into English for me please? It makes no sense.",refund_return,golden,True,4
+conv_2416801,".@115850
+.@AmazonHelp
+Amazon is cheating in the name of cashback when you add money to Amazon pay during offer time as Great Indian Sale. https://t.co/aQ8ZpKpQgp",billing_payment,rule_single,True,0
+conv_927477,@AmazonHelp my frame has arrived damaged today! What do I do? Don’t see why I have  to go to the trouble of sending it back! https://t.co/oImMc6XvCJ,order_problem,rule_single,True,1
+conv_2863413,"@AmazonHelp hi, I have accidentally purchased a kindle book (missclick), can I somehow cancel the order?",technical_device,rule_single,True,2
+conv_351124,@AmazonHelp @115850 406-2945792-2405156 order shows as delivered but it was not delivered to me or my security guard. plz look into it,delivery_issue,rule_single,True,2
+conv_982017,Kind of terrible that @AmazonHelp doesn't let you transfer Prime when you move. Now useless with most of the year left. Why buy again?,prime_subscription,rule_single,True,1
+conv_520740,"@AmazonHelp I received an email stating that my package was delivered but I didn't get it.  It has been over 36 hrs, what steps do I take now to get my product?",delivery_issue,rule_single,True,1
+conv_2480614,@AmazonHelp is everything you purchase on Prime TV available to download &amp; watch offline or are some things only available to stream??,prime_subscription,rule_single,True,0
+conv_1532978,"@120533 @AmazonHelp une idée de pourquoi les livreurs indiquent ""livré avant 20h"" toujours alors que ca sera clairement pas livré ?",non_english,rule_single,True,0
+conv_2503588,So ich lasse es dieses Jahr mit @AmazonHelp von den letzten 6 Bestellungen hat genau eine funktioniert ... zwei verloren und die restlichen verspätet.,non_english,rule_single,True,0
+conv_350620,"@AmazonHelp Echo/Music Unlimited and Prime Video APP (PS4) is not working since yesterday, any ideas when the issues will be fixed? Thanks",technical_device,rule_conflict,True,0
+conv_2136241,Hey @AmazonHelp on hold for fifteen minutes now as your advisor doesn't know what to do...!? Here's a clue. Faulty unit. Fire hazard. Good customer. Send a replacement! https://t.co/7tBfLq9o7W,refund_return,rule_single,True,0
+conv_1956015,@AmazonHelp @115850 why everytime you guys give fake updates. your gandhinagar team sucks. fake guys liars and false commitments https://t.co/McRTdFMAgD,escalation_needed,rule_single,True,1
+conv_2184693,Great to see that my Xbox one x from @AmazonHelp still isn't here 2 days late 😴,resolution_confirmation,rule_multi,True,1
+conv_2276809,"@AmazonHelp @115850 can you please help not able to view return label for my order 
+Order No.
+402-8344557-0832353",refund_return,rule_single,True,2
+conv_2829426,"Ok, @AmazonHelp 🤔#Amazon #Alexa #Dot #Echo https://t.co/JqzTfUId0K",technical_device,rule_single,True,0
+conv_1922900,@AmazonHelp Is there anyway that someone from the UK management team can call me?,escalation_needed,rule_single,True,0
+conv_174553,@AmazonHelp I ordered something yesterday and on your site it says it’s ordered and being processed but I have yet got a confirmation email or it being taken out of my bank account. Is there any reason why?,billing_payment,rule_single,True,3
+conv_2335217,@AmazonHelp I’m trying to place an order but it is constantly being declined even though the card isn’t cancelled and has money on it.,billing_payment,rule_single,True,2
+conv_2816293,@AmazonHelp ordered a JBL CHARGE3 on Black Friday. Unplugged it the first time it does this help!  @164902 maybe you can help too?  I don’t want a return just a new cord. https://t.co/UbEAakQCcI,refund_return,rule_single,True,2
+conv_1456416,@AmazonHelp U didnt resolve my query yet. I havent received any call from your team.,escalation_needed,rule_single,True,5
+conv_2545331,@AmazonHelp didn't receive cashback of Rs1500 for @132995 5 purchase on amazon.despite providing my bank statement got no reply.order id-405-4850874-0410733 #FakePromotions #BuycottAmazonIndia,billing_payment,rule_single,True,1
+conv_1553047,@115821 @AmazonHelp Does your team has only donkeys? Two different stories for my failed delivery 😁😂 https://t.co/tXTM7R7dWx,escalation_needed,rule_multi,True,2
+conv_2979583,@115821 @amazonhelp reluctantly cancelled prime membership today after years. Service has just got too bad. Hope you get it fixed.,prime_subscription,rule_single,True,2
+conv_585742,@AmazonHelp why dont I get next day delivery anymore with prime?,delivery_issue,rule_multi,True,1
+conv_693835,I would like to appreciate Mr. Prabhudayal and Mr. Naveen from your customer care team who assisted me in a remarkable manner. Kindly convey my appreciation to them. @AmazonHelp,escalation_needed,rule_single,True,1
+conv_1310628,@115851 @115850 @AmazonHelp 2 months and a  week later and still you guys have not refunded my money! https://t.co/C7FL0rD9Vl,billing_payment,rule_single,True,3
+conv_1749497,@AmazonHelp I have requested a return however when do I know when they are coming to collect it?,refund_return,rule_single,True,1
+conv_735308,"#LastPurchaseFromAmazon
+@115821 @AmazonHelp @115850 #pathetic courier services https://t.co/dq3kDKmGbm",delivery_issue,rule_single,True,0
+conv_1163349,@AmazonHelp I need your help. I don’t have amazon prime is this legit saying about renewing my subscription? And asking me all this details https://t.co/Iy0iSSvP4i,prime_subscription,rule_single,True,0
+conv_298457,"@116875 @AmazonHelp hola, mi cuenta está bloqueada y ya les respondí el correo para verificar mis datos. ¿Cuándo lo van a resolver? 😓☹️🙃",non_english,rule_single,True,0
+conv_1153295,"@AmazonHelp are you having issues with Fire Stick.  Both ones show connecting to wireless, but not internet.  We've restarted router+sticks",technical_device,rule_single,True,1
+conv_2317533,@121284 can I play my playlist from @4694 once I link my Saavn account to Alexa ? @AmazonHelp @122090,technical_device,rule_single,True,1
+conv_557025,@AmazonHelp Incredibly bad service trying to order two kindle books.,technical_device,rule_single,True,4
+conv_2821613,"@AmazonHelp Hello, how can I cancel the subscription??? Without my participation the money deducted from the card.",prime_subscription,rule_conflict,True,1
+conv_2526221,"Hey @AmazonHelp! Any idea why I just received two order history reports? I never requested them, and they came in one minute apart. Glitch on your end?",technical_device,golden,True,3
+conv_2956983,@AmazonHelp How do i go about using a gift card but also use my card because what's in the gift card isn't enough?,billing_payment,rule_single,True,2
+conv_1437372,"@120533 @AmazonHelp Vous n'êtes vraiment pas sérieux. On revient vers vous en pensant qu'un prob est réglé et, non, rien. Bye Pantry",non_english,rule_single,True,0
+conv_2569447,@AmazonHelp I just canceled a $500+ order because your entire CS team is beyond inept because your logistics sent to wrong address #worst,escalation_needed,rule_multi,True,1
+conv_791509,@AmazonHelp The registration and subsequent login process is super vague and confusing.,account_access,rule_single,True,1
+conv_627729,"@AmazonHelp I was going to order a watch for my new husband, but now I see it's only being sold by third party sellers and for way more money! Any way to know if the item will be coming back in stock sold by Amazon soon? https://t.co/Ru02ja6Mko",billing_payment,rule_single,True,0
+conv_406612,"@AmazonHelp are so poor. Order placed for next day delivery, still not here 3 days later despite being out for delivery 3 times. #greatstuff",delivery_issue,rule_single,True,1
+conv_1327045,@AmazonHelp I’ve been charged £80 for amazon prime however on my account it says that I’m not a member of amazon prime. It said the same thing when I wanted to cancel my free trial,billing_payment,golden,True,2
+conv_928352,"@AmazonHelp bjr, une commande refuse de passer ""vérification du paiement nécessaire"" je comprends pas pq.. des explications ?",non_english,rule_single,True,0
+conv_267744,"@AmazonHelp Is Thursday Night Football not available through Amazon Video app on Roku? I have multiple Roku's, it's not on my Watchlist",non_english,rule_single,True,0
+conv_450783,"@AmazonHelp Hi. Why is live chat unavailable anymore. Also, why is every single prime delivery now delayed for me? I used to think Amazon were brilliant",delivery_issue,rule_multi,True,0
+conv_842139,"@115850 @AmazonHelp hi team, need to know if the balance in amazon pay can be made transferable to other users..as the balance lies idle..",escalation_needed,rule_multi,True,2
+conv_1565062,SSD rotto! @AmazonHelp Grazie sempre per la vostra disponibilità!,non_english,rule_single,True,0
+conv_710621,@AmazonHelp thanks for sending my refund to a card I added on my account over 3 years ago and was shortly deactivated after...💁🏼💁🏼,refund_return,rule_multi,True,1
+conv_481499,I use my dad’s prime account bc I’m cheap &amp; I just woke up to a $100 charge on my credit card because they didn’t use the default card on file (his) and used mine instead 😐 get it together @AmazonHelp,prime_subscription,rule_conflict,True,0
+conv_2552215,"@AmazonHelp I need help with alexa skill? is any one here can help me with, because amazon developer support did't replaying to my email at all!!!!!!!! So bad customer service I will say!!!!!!!!!!!! #badcustomerservice",technical_device,rule_single,True,0
+conv_649634,@AmazonHelp when you order one day shipping and they charge you for it but it’s not delivered In one day smh,delivery_issue,rule_multi,True,3
+conv_1540472,"@AmazonHelp Why will my Amazon Echo not say ""Alex is a nerd"" but will say ""Alex is a bitch""?",technical_device,rule_single,True,0
+conv_2816306,So @AmazonHelp your logistics team is not doing so well with me. My first order that was supposed to be delivered Friday still has not shown up and the order I was supposed to have today claims it could not be delivered. Only with this shipper do I have issues.,escalation_needed,rule_multi,True,1
+conv_1046539,"@115821 @115850 @AmazonHelp Should I just reset this person's password, log in and delete the account?  Can't contact support without acct",account_access,rule_single,True,1
+conv_1384296,"@210920 @AmazonHelp Hi there , I have had a £7.99 amazon prime fee come out of my account from Luxembourg that is not mine ?!any help is appreciated",prime_subscription,rule_single,True,2
+conv_1032748,@AmazonHelp Can y'all stop asking me to verify my accounts for no reason that shits annoying,account_access,rule_single,True,1
+conv_880007,"@AmazonHelp Hi, I've been waiting over a month for a refund on a defective bag. I've left feedback and complained seperately.  Can you help?",refund_return,rule_single,True,2
+conv_2598521,"@AmazonHelp I have a question about returns. I am getting scammed by a seller, they offered a half refund on something not even close to what I ordered, then I opened an a to z file claim. Then the seller closed my return request, does the request still go through to Amazon?",refund_return,rule_single,True,2
+conv_530067,"@AmazonHelp I have had all my recent orders canceled, and I am not sure why. Do you mind taking a look and advise me on what went wrong?",order_problem,rule_single,True,2
+conv_420271,@115850 @AmazonHelp Can you please provide a faster delivery of my ORDER # 406-5598065-5799506 than that of the expected delivery date.,delivery_issue,rule_single,True,2
+conv_2773094,"@AmazonHelp can you tell me when i got my refund back...???
+Poor customer service,very dissatisfied 😤 https://t.co/P13eqf2JpR",refund_return,rule_single,True,2
+conv_931401,"Dites @AmazonHelp, comment mon colis a pu être refuser à la livraison par le destinataire si je n'ai jamais reçu le colis ?",non_english,rule_single,True,0
+conv_2740676,"@AmazonHelp Hi gang, quick question. I want to buy a book in the Dutch Kindle store written in Dutch. I normally buy English books from the .com site in English. Will I still be able to buy English books from the US store if I switch my account to the .nl site?",technical_device,rule_single,True,2
+conv_19475,@AmazonHelp HorrbleService👿Booked #Redmi4 on 16.10.17.  Neither phn recd nor refnd. complnt alrdy made.  No response at all. Fed up wd amzon,escalation_needed,rule_single,True,1
+conv_99777,"@AmazonHelp you guys literally have no idea how to process a return. Every time I call, it's like I'm teaching a new lesson to a new person. ????",refund_return,rule_single,True,5
+conv_446764,@AmazonHelp I suspicious of Amazon ability to live up to the membership of 2 day shipping. I have nothing but delays in receiving orders. It’s really irritating with all the messages with late deliveries. Your going to have to do some business tooling to keep loyal members.,delivery_issue,rule_multi,True,1
+conv_2087173,amazon alexa just randomly turns on in the middle of the night without me telling her to.. help @AmazonHelp,technical_device,rule_single,True,0
+conv_2952230,@AmazonHelp can you help me? I returned something and it was received 9 days ago but I still haven’t gotten my refund https://t.co/msCe6ByMgI,refund_return,rule_single,True,2
+conv_559846,"@AmazonHelp Amazon, someone gained access to my Prime account and wiped out my rewards points after attempting to place a failed order. Is there ANY way to get these points back? My account was compromised and this isn’t my fault.",account_access,rule_multi,True,1
+conv_509402,Thanks @AmazonHelp for sending an aluminum credit card wallet that is only an outer case nothing inside,resolution_confirmation,rule_multi,True,1
+conv_1326859,@115851 Generated a Docket No in National Consumer Court - 477911 for delivery of order still no response from @AmazonHelp @115850 &amp; CC,escalation_needed,rule_multi,True,0
+conv_2515831,@AmazonHelp I need to talk to someone about getting a refund. I ordered 3 2-packs of these bells and within one shake of them the bells have broken off! Horrible quality! https://t.co/fRAfTSzA1T,refund_return,rule_single,True,1
+conv_1306771,"@AmazonHelp Hi Team, going through your movies section on prime most blockbusters from hollywood missing. for ex: It, annabelle creation..",escalation_needed,rule_multi,True,0
+conv_1005964,@AmazonHelp hi i tried to change my login twice and now I can not log in at all. what can I do? I have no access to my account.,account_access,rule_single,True,2
+conv_1013754,@AmazonHelp My Amazon Prime packages don't come on time!,prime_subscription,rule_single,True,5
+conv_709044,@AmazonHelp hi I just received an order from you and it’s arrived damaged :(,order_problem,rule_single,True,2
+conv_2950733,@AmazonHelp hello I’m trying to use my gift card but every time I order something it sends me a email and cancels the order,billing_payment,rule_single,True,1
+conv_2710413,"@AmazonHelp  I have Prime Video. I subscribe to HBO through my cable provider.
+Is there a way to access HBO through Prime Video based on that subscription?",prime_subscription,rule_single,True,2
+conv_2873276,hey yall need to cancel that and give me my money back @AmazonHelp,refund_return,rule_multi,True,4
+conv_2360509,"@AmazonHelp being as tricky a customer as I attempt to be, please send me hearty thanks to your customer service team- they're fantastic!",escalation_needed,rule_single,True,1
+conv_1311827,"@AmazonHelp  you can't even make your app properly and fighting for the market share with @118702, see the garbage text display, 300or500😠 https://t.co/I9ikuvdjEq",non_english,rule_single,True,1
+conv_105050,@AmazonHelp cheers for the damaged Pukka pads and an insult in response. Absolutely fab.,order_problem,rule_single,True,0
+conv_320653,"@AmazonHelp again fail to deliver package on time I bought it for my wife on karvachouth, so disappointed 😔 again @115850 @115821",delivery_issue,rule_single,True,1
+conv_1025985,"@AmazonHelp i have order from amazon.it , but you’re not sending to me , you’re send to wrong address ..
+Tracknumber: 1Z94W2A80400008449",order_problem,rule_single,True,3
+conv_2102637,"The incompetence of @115830 and @AmazonHelp increases exponentially. Having had the items returned, INSTEAD of refunding me, they've only gone and made 'a replacement order'! This is after my son went to Tescos after Amazon's constant failure to supply the item we pre-ordered.",refund_return,rule_single,True,3
+conv_1511973,@AmazonHelp if I have a complaint with an order being faulty how do I go about requesting this is looked in to please?,escalation_needed,rule_single,True,0
+conv_348983,@115850 @AmazonHelp apki apni FARZI dukaan. Worst delivery ever.,delivery_issue,rule_single,True,2
+conv_2303352,@AmazonHelp my firetv stick has stopped showing X-ray although the movie supports it. Any help?,technical_device,rule_single,True,0
+conv_2454484,@AmazonHelp y’all niggas taking mad long for my refund b,refund_return,rule_single,True,1
+conv_1556319,@AmazonHelp can I not use an Amazon Gift Card on https://t.co/1lL24raIqo? What’s the point of linking the accounts then?,billing_payment,rule_single,True,0
+conv_149300,@AmazonHelp what the hell wrong with your team ?? Just recieved a mail that order failed to deliver due to unavailability of customer. But in real no one even contacted me. They are lying😠😠😠😡😡. @115850,escalation_needed,rule_multi,True,1
+conv_1576334,@115821 @AmazonHelp What rubbish service is this on chat your agent said i will get refund and on email ur agent sorry not possible? Wtf? https://t.co/FtxP4gjewi,refund_return,rule_single,True,1
+conv_546466,@115821 @AmazonHelp is there a way I can cancel a order that ship but never arrived on the guaranteed day delivery?,delivery_issue,rule_single,True,3
+conv_2151923,"@AmazonHelp whenever I try and watch anything on prime via fire tv I get error 5505, same problem since yesterday",technical_device,rule_conflict,True,3
+conv_1667759,"@AmazonHelp hello, how to I return a defective tv without incurring huge postage costs that won’t be reimbursed (will cost far more than £5)",refund_return,rule_single,True,4
+conv_2791988,@AmazonHelp i get that you're an enormous company and that you care little about a small brand like sparrow. but you literally destroyed a pallet of my product and you want me to pay to have it removed. i'm dumbfounded.,billing_payment,rule_single,True,2
+conv_2283482,@115821 @AmazonHelp so I returned 2 items and was only refunded for 1. What do I do?,refund_return,rule_single,True,2
+conv_419839,@AmazonHelp need help in updating a shipping address. Order has not been shipped yet address needs to be changed to billing address. #urgent,delivery_issue,rule_multi,True,1
+conv_133812,@115821 @146155 @AmazonHelp amazon has very worst customer support.. also we wont get connected asap.. they making us wait for very long time/disconnecting.. i have made a payment and now the product is cancelled..BS response from agents,billing_payment,rule_single,True,2
+conv_140068,"PUTAIN ! @AmazonHelp, si je paye 50€ par an pour la livraison, ce n'est PAS pour que ton service #AmazonLogistics laisse mon colis comme cela !!! Autant le poser sur le trottoir ! Mon Hall est vitré, qui plus est ! C'est une HONTE ! Abandonnez AmLo ou réservez ça aux non #Prime! https://t.co/6ZYyeDImTY",non_english,rule_multi,True,0
+conv_2408671,"@AmazonHelp Hello, I have recently bought the echo and the fire tv stick. Both of them are not working. The Echo keeps saying not registered, and the Fire tv stick does not get set up after looking for updates.",technical_device,rule_single,True,1
+conv_2883404,@AmazonHelp Registrd a complaint with Amazon long back. Sent so many emails yet to get a resolution.U assign new analyst evrytime who s unaware of d background nd only replies just fr d sake of it.May u plz intervene and close dis case.Let me know hw can i share more details here,escalation_needed,rule_single,True,2
+conv_2553941,"Bjr @AmazonHelp pk  2 articles commandés en même temps (2 commandes différentes) ne sont pas expédiés en même temps, la commande la plus récente est déjà expédiée alors que l’autre est encore en « pas encore expédiée »? Membre prime, j’aimerais recevoir mon colis à temps (demain)",non_english,rule_multi,True,0
+conv_2814417,My account was blocked and I am asked to send a summary of the card. I need help @AmazonHelp In Spanish please,account_access,rule_conflict,True,6
+conv_706834,"@AmazonHelp Hello, I am trying to set up calling and texting between Alexas, but when I enter the verification code it says... (1/2)",account_access,rule_single,True,1
+conv_1770531,@AmazonHelp I can't login to my account even after changing my password. I think it's on hold for a security concern? I can't chat for help since I'm not logged in Please help!,account_access,rule_single,True,3
+conv_1208383,"Hey @AmazonHelp kann es sein, dass der neue Fire TV auch nach dem Day One Update noch etwas Denglisch spricht? Hauptoberfläche ist auf deutsch, aber die Menüs beim Videoplayback sind auf Englisch.",non_english,rule_multi,True,0
+conv_1060443,"@AmazonHelp my account was hacked, but I can’t see where to report that. I already changed my password, but want to inform you.",account_access,rule_single,True,2
+conv_227036,"@AmazonHelp return order placed long ago on this order, no one turns up to pick up d return
+Cud u help pls? https://t.co/bEQK4bUYqp",refund_return,rule_single,True,1
+conv_1429829,Why was my account charger twice for amazon prime! I’m not about to play with y’all  @AmazonHelp @115821,prime_subscription,rule_single,True,1
+conv_545761,Two separate days returned after two days out both in plain sight two crappy prime deliveries thanks @AmazonHelp https://t.co/8r7vEid3kI,refund_return,rule_multi,True,3
+conv_1860088,"I swear @115830 has the most useless customer service team I have ever encountered... 🙄😡
+
+@AmazonHelp https://t.co/xAahHuNSZ1",escalation_needed,rule_single,True,0
+conv_2887355,"@AmazonHelp hi, I have been charged £7.99 for Amazon U.K. Prime on the 8th November, I didn't make this transaction and it isn't showing up on my Amazon account.  Please help",prime_subscription,rule_single,True,2
+conv_349974,@AmazonHelp mentioned tht I don't intend to use Amazon anymore.Hence need amnt in my bank account not in paybalance #amazonindia https://t.co/88oN9R1kdx,billing_payment,rule_single,True,1
+conv_2647190,@AmazonHelp Bonjour je voulais passer commande le jeu Super Mario Odyssey mais la commande se met toujours en annulé après que je l'ai acheté. J'essaie aussi de me connecter mais on me dit qu'il y a un probleme de sécurité :'(,non_english,rule_single,True,0
+conv_1733892,@AmazonHelp prime now order arrived in very poor state. Bottles all squashed@&amp;out of the packaging. Bag open and everything been dropped 😡 https://t.co/FDD71iNolq,prime_subscription,rule_single,True,0
+conv_915042,Cuando haces un reclamo por mal servicio de @116928  el operador de @AmazonHelp te trollea https://t.co/IxjcRsD4Ut,non_english,rule_single,True,0
+conv_2544990,"Maybe hele domme vraag, maar als ik op https://t.co/93O6tUAD9L iets bestel, komt het dan altijd vanuit Amerika (in verband met overige kosten die de Nederlandse Post @3843 altijd toe dient aan Amerikaanse pakketjes)? @AmazonHelp #durftevragen",non_english,rule_single,True,0
+conv_995428,"@AmazonHelp Hi there, I have the app to watch movies &amp; tv on my Samsung TV, is there an app for the music version of prime for Samsung TV? Thanks in advance!",non_english,rule_multi,True,2
+conv_494956,@AmazonHelp RM Tracking shows parcel delivered but postie and me state nothing was posted or received! What is happening? How can this happen? #SoftwareBug #SystemBackDoor #NeverHappenedBefore,delivery_issue,rule_single,True,1
+conv_91434,@AmazonHelp I won’t be renewing my amazon prime this year with you as the service has not been the best !,prime_subscription,rule_single,True,0
+conv_160429,"@AmazonHelp Hi, I purchased an item from https://t.co/74EFtoe8tF on Wednesday 22nd of November and 2 days later it’s on sale quite considerably. Am I eligible for a refund to the sale price. Thanks.",refund_return,rule_single,True,2
+conv_2922471,"@AmazonHelp hi I was due a refund from 2 purchases as didn't receive items , refund still hasn't gone in and it's been more than 10 days",refund_return,rule_single,True,1
+conv_708533,So I have to pay @AmazonHelp prime to be able to pay to watch a film or series?,prime_subscription,rule_conflict,True,0
+conv_2895913,"@117634 @AmazonHelp Why does your tech support attempt to push a browser cache issue when no Kindle app (on an iPad, Fire or Samsung S7) can see/download subscribed magazines?! One rep could see all the subscription mistakes but can't fix them?! https://t.co/oHFHr6I5jO",technical_device,rule_conflict,True,0
+conv_1261148,"@AmazonHelp Matchbook price is $2.99.  If I buy the book, will option to buy for $2.99 automatically appear on my Kindle? Or what?",technical_device,rule_single,True,0
+conv_2318431,SanDisk Ultra MicroSDHC 32GB UHS-I Class 10 Memory Card With Adapter (Upto 80mbps Speed) https://t.co/kmUMEHehUB @AmazonHelp I could order just 1 instead of 2. Same issue with another order where maximum allowed per person is 5 nos. Of @90999 camera &amp; I could order just 1.,billing_payment,rule_single,True,0
+conv_846914,"@AmazonHelp Wie kann man bei der Produktsuche Händler aus dem Ausland wegfiltern, so dass man sicher bei einem deutschen Anbieter bestellt?",non_english,rule_single,True,0
+conv_396036,@AmazonHelp I am being charged a second time for a product that I have refunded.,billing_payment,rule_single,True,1
+conv_897598,@AmazonHelp hi. Why won’t my gift card reload to my account?,billing_payment,rule_single,True,2
+conv_2198972,"@AmazonHelp Hi, prime order been dispatched but just realised it’s the wrong address can you get this altered?",order_problem,rule_multi,True,1
+conv_1674896,Dear @AmazonHelp who can I contact for stolen packages and packages being left at the door? I'm spending more money to receive a new item.,billing_payment,rule_single,True,2
+conv_2306240,@AmazonHelp hi if i pre-order niall horan’s album that is being released tomorrow can i get it tomorrow?,order_problem,rule_single,True,2
+conv_1266454,"@AmazonHelp I signed up to the Amazon Prime Free Trial, which was suppose to be 'free' but my bank account has been charged? What gives?",prime_subscription,rule_conflict,True,2
+conv_2611541,"@AmazonHelp hi guys, I’ve purchased a gift card for a second time and the first arrived within minutes, this one has now been over 3 hours and I’m still waiting? Could you check this for me please",billing_payment,rule_single,True,2
+conv_1245379,@AmazonHelp hi - how do I buy a gift card in the US for Amazon Australia? Ideally send via email?,billing_payment,rule_single,True,0
+conv_543548,So @116090 @AmazonHelp  what's the point of my Prime membership? :( https://t.co/8wjoqWMaWM,prime_subscription,rule_single,True,2
+conv_2292025,"@AmazonHelp @115850 
+
+I have received this message is this true
+If not then please look after this , as a serious fraud is being done on the name of Amazon India
+
+Waiting for a reply Amazon India @115821 @115850 @AmazonHelp https://t.co/uk0XmLIINd",escalation_needed,rule_single,True,1
+conv_2570419,@AmazonHelp hello I just a letter from you guys about a gift card it has a number to dial. Want to know if this true or not.,billing_payment,rule_single,True,0
+conv_2612337,"@AmazonHelp I wish to notify that I received the Items, yesterday  I was Complain due to Incomplete address , Items is Undelivered, Kindly Stop the refund,",refund_return,rule_single,True,2
+conv_1489145,"@AmazonHelp am having a problem on order, payment declined, checked cards OK.
+Where do I go from here?",billing_payment,rule_single,True,0
+conv_238295,@AmazonHelp My parcel (delivered by Amazon delivery) was ripped and opened. Fort. wasn't confidential or a gift for partner but not ideal!,delivery_issue,rule_single,True,0
+conv_2480929,"@AmazonHelp hey guys, I've changed my p/w a few times but can't login with the new one. Please help :)",account_access,rule_single,True,3
+conv_1575609,@AmazonHelp I’m an Amazon Prime member but I paid $13.98 for one day service and did NOT receive pkg. Now order says will be here 5 Days after I ordered!!!! Credit my acct $13.98 please!!  Ord # 113-3809001-9731469,account_access,rule_multi,True,2
+conv_479358,@AmazonHelp I got letter from Amazon in the mail today offering another 30-Day Free Trial to Amazon Prime but when I go to https://t.co/VGstb43w7i I'm forced to pay. https://t.co/ZPmjmiKyl2,prime_subscription,rule_conflict,True,0
+conv_109969,@AmazonHelp your CS desk haven’t got a clue. 5 phone calls to point out the dvd Box is damaged (as your courier chucked it over the fence). I just want a replacement but they want to charge me more money. How difficult is it to sort?,delivery_issue,rule_conflict,True,2
+conv_155240,@AmazonHelp very very bad customer support provided by you i order a product and receive defective product and apply i again apply for order refund 15.11.17  but not response.i also talk with agents but they not give right suggestion.@118702 is better for purchase.,refund_return,rule_single,True,1
+conv_281424,"@AmazonHelp 
+Someone is using amazon logo to fool people.. Looks like a fraud.. Plz look into it https://t.co/CY2JLDHiaW",escalation_needed,rule_single,True,1
+conv_2760285,@AmazonHelp : Is cheating and looting seller a part of this company or few are there with this behavior? My amazon seller account is suspended suddenly without any warning and despite of appealing and sending multiple emails there is no response from the team. Frustrated. HELP!!!,escalation_needed,rule_single,True,1
+conv_689220,"@AmazonHelp hello. I ordered 4 books off you, and it said 4 books were out for delivery- but when they were delivered there were only two books. Help! https://t.co/nwm8knu43I",delivery_issue,rule_single,True,4
+conv_2967727,@AmazonHelp The U2 Experience will only play about 30 seconds at a time on my echo. Is this a known problem or is it just me? 😢,technical_device,rule_single,True,1
+conv_729186,"@AmazonHelp order hasn't been dispatched still says will be delivered on 6/10/17 (5 days ago), chat isn't working can you help?",delivery_issue,rule_single,True,1
+conv_2401520,@115830 @AmazonHelp my account has been locked after trying to purchase an item please can you unlock the account?,account_access,rule_single,True,2
+conv_412284,"@AmazonHelp hello, someone hacked my amazon account and changed my email and password. I have the email to prove it. Please help me",account_access,rule_single,True,1
+conv_326334,@115850 @115821 @AmazonHelp @115830 ordered 407-4582582-9873957.. Refund not processed even after regular follow up. Product defective..,refund_return,rule_single,True,3
+conv_292884,"Is it just me or is @115821 / @117795 starting to charge for shipping/returns? Again, Prime customer here. @AmazonHelp",delivery_issue,rule_multi,True,2
+conv_529097,@AmazonHelp my son's fire tablet charging port isn't working and now it doesn't charge. How can we get it fixed?,billing_payment,rule_single,True,2
+conv_2049074,@AmazonHelp esperando la devolución de mi dinero desde el 31/10 y sigo sin recibir mis 274€.,non_english,rule_single,True,0
+conv_465162,"Ever since moving to California, the wife and I have discovered that @115821's two day shipping is really just a suggestion, and not a statement of fact. So glad we pay for that service! @AmazonHelp",delivery_issue,rule_multi,True,1
+conv_1243354,@AmazonHelp I need urgently need your mail to request a refund due to my amazon acoount was hacked,refund_return,golden,True,2
+conv_152163,@AmazonHelp Is there any way to remove @126705 as an option for my Prime deliveries? Every other Amazon courier tries to leave parcels with neighbours/safe place - RM just make life difficult by leaving a 'missed you' card. Hopeless!,prime_subscription,rule_conflict,True,0
+conv_1075561,"@AmazonHelp I’m having trouble purchasing a 25.00$ gift card, I was also charged a dollar for no reason",billing_payment,rule_single,True,3
+conv_452012,@AmazonHelp how long does it take to get a refund after a cancelled order?,refund_return,rule_single,True,1
+conv_388863,@AmazonHelp Order no-407-4421210-3428346 refund was not issued till date.plz resolve dis issue ASPA.,refund_return,rule_single,True,5
+conv_1021610,@AmazonHelp You need to wrap soft cover books to cover and pages don't get damage!!! Using bubble strip does not cut it. 1of3 damaged.,order_problem,rule_single,True,6
+conv_524894,@AmazonHelp I sent in a kindle for a trade in. It was in perfect condition. Now I’m told the screen is cracked and they won’t give me the full amount. That’s a lie. I’m not going to use Amazon Trade-In again.,technical_device,rule_single,True,2
+conv_1561111,"Worst service,most useless,fraud @115821 @115850 @AmazonHelp 
+I'd like to go the consumer forum.",escalation_needed,rule_single,True,2
+conv_1001005,@AmazonHelp I preordered amazon echo but want to go for amazon plus now. Anyway to reach out to seller? I want another invitation.,technical_device,rule_single,True,2
+conv_200001,@115850 @AmazonHelp @115821 Pathetic customer support experience despite being a Prime &amp; being one of the first buyers of Amazon Echo !!,technical_device,rule_conflict,True,1
+conv_712917,@AmazonHelp why can't I pre order Dunkirk on dvd?,order_problem,rule_single,True,0
+conv_741610,"@AmazonHelp @115821 I'm in Africa {Ghana}, I urgently need a card to pay my goods bought on your site. My mastercard is not helping. HELP",billing_payment,rule_single,True,1
+conv_378431,"@AmazonHelp U r putting the customers in trouble..my reg no-7008524488
+not providing the charger cost..not proving hand to hand replacement",refund_return,rule_single,True,3
+conv_1580410,"@AmazonHelp have contacted your team as my account has been fraudulently changed email and password, but they can't help me. please help!",escalation_needed,rule_multi,True,4
+conv_427772,@AmazonHelp Your tracking says delivery today but the tracker hasn't been updated from last night. Can you help me please. AR100009146,delivery_issue,rule_single,True,2
+conv_306937,@AmazonHelp you guys having trouble with Alexa and amazon music? She won’t play any music. Says she’s going to play it then no sound.,technical_device,rule_single,True,0
+conv_1454143,Hey @AmazonHelp why can't i buy things with prime anymore?  It's all pantry and fresh and all I want to do is buy things with Prime.,prime_subscription,rule_single,True,0
+conv_2311770,@AmazonHelp este mensaje quiere decir que el titular de la tarjeta tiene que llamar a la tarjeta y autorizar la compra? https://t.co/YrvInAcIOC,non_english,rule_single,True,0
+conv_1939130,"@AmazonHelp hi, I ordered 6 of an item and 2 arrived this morning. The app showed 2 further shipments due by 9pm. I am trying to track...",non_english,rule_single,True,3
+conv_1723368,"@AmazonHelp  your courier department is doing fraud with customers. Who is responsible for this act?
+how people can rely on amazon ?",escalation_needed,rule_multi,True,2
+conv_35172,"Ordered via @AmazonHelp, notified its been delivered. Get home, not delivered. Request them to investigate, their response.Salt in the wound https://t.co/AmxnePgcpF",delivery_issue,rule_single,True,0
+conv_2938259,"@AmazonHelp Hi team, my order no is  407-8772287-0296304. I returned the product but still the refund has not been added in my Amazon Account. Can you please have a look? Thanks!",escalation_needed,rule_multi,True,2
+conv_1806473,"Thanks to @AmazonHelp’s intervention, @115817 finally delivered a package due November 9. @115817 would not listen to me, a mere mortal,  who paid money for a service, but quaked at the might of Amazon. 🙄",resolution_confirmation,rule_multi,True,1
+conv_64072,"@AmazonHelp @115821 your customer service agents try but can’t solve real problems. I have regular issues with Amazon and no one ever does anything different. As a long time prime member, I don’t feel valued at all nor do I get “prime” service. Want someone higher up to hear me.",prime_subscription,golden,True,1
+conv_18162,"@AmazonHelp Please help
+Your team is not providing support and information properly. They are just ingnoring my request. I need access. https://t.co/VqK97kzHrt",escalation_needed,golden,True,2
+conv_786780,@AmazonHelp HELP! I was logged onto my mums Amazon account without realising &amp; bought a #kindle book when I mean to purchase it on mine!,technical_device,rule_single,True,4
+conv_2578482,"@AmazonHelp @173744 Hey, I noticed on the help page for prime it mentions a 5% off code though NUS Extra however I can't find the code anywhere 😥😭 (UK)",prime_subscription,rule_single,True,0
+conv_2406868,@AmazonHelp I cancelled my audible subscription and still got charge. I'd like my money back please,prime_subscription,rule_conflict,True,2
+conv_1603119,"@115850 @AmazonHelp Order #
+408-1658386-3149913 return received by #Amazon, still not refunded money. No response by customer support.",escalation_needed,rule_multi,True,2
+conv_498486,"@AmazonHelp Excusez moi ça fait la deuxième fois que ma commande doit arrivé en retard, c'est assez dérangeant quand on sait que j'ai amazon prime et que la livraison doit être assuré le jour de la sortie du produit J'aimerais que mon problème soit réglé et que je sois dédommagé",non_english,rule_multi,True,0
+conv_453252,"@AmazonHelp Hi - what is going on with prime? Ordered item on 28th, due today but hasn’t turned up and now told to come back on 7th if not arrive. Not really quick delivery?",delivery_issue,rule_multi,True,3
+conv_470826,"Hi @115850 
+How can you show WINDOWS OS on picture if you only provide DOS with this laptop? Why such blunder, who will pay for Windows OS if I purchase it?
+https://t.co/XuMJwqzF4a @AmazonHelp @115821 https://t.co/ieFfcbUPi3",billing_payment,rule_single,True,2
+conv_970842,@AmazonHelp Never got any Amazon Pay offer cashback for my ORDER # 405-7646271-1081115 #Amazon Seems like #AmazonPay cashback is fake !!,billing_payment,rule_single,True,1
+conv_697864,Hi @AmazonHelp @115850 need ur help in changing the shipping address after my order placed..!!,delivery_issue,rule_single,True,1
+conv_504936,@AmazonHelp Day 5 no package y'all- no response from the seller (AS I EXPECTED [but was forced to wait]). Yet y'all hung up because my irritation. Well what the fuck y'all??!!?? My son's Teddy bear should already be here. https://t.co/FFmdDe3Wmo,escalation_needed,rule_multi,True,8
+conv_2759741,@AmazonHelp i have been charged 327 rs for a product whose mrp on the box is 103 rs. #fraud #need refund. #NoMoreBuying https://t.co/6Tn46Z8gEt,escalation_needed,rule_multi,True,1
+conv_389329,@115850 @AmazonHelp ur claim for order is granted...what does this statement means and also when will i get my product return..,refund_return,rule_single,True,0
+conv_309912,@AmazonHelp How can I use my student email to sign up for Amazon prime?,prime_subscription,rule_single,True,0
+conv_232157,"@AmazonHelp @115850 @115851 @12934 [2/2]products for longtime &amp; then get refund. V aren't giving product on rent, but selling",refund_return,rule_single,True,1
+conv_2950843,"@AmazonHelp Good evening! I hope this message finds you better than my parcel has found me... I ordered an item and it was meant to be delivered on Saturday, it’s now Wednesday and still nothing has arrived. Please look into this and rectify or I will escalate this to head office",escalation_needed,rule_multi,True,1
+conv_169580,"Hola. @130687 @80 después de pasar los días y no recibir el producto al día siguiente de @AmazonHelp. Me sale en Seur que ha sido entregado, hemos estado en casa y no ha aparecido nada. NADA.",non_english,rule_single,True,0
+conv_294340,@AmazonHelp Hello! I ordered books on Sept. 26. They haven't shipped yet. 1 was a preorder but it's been 3 days since it was release. Help!,delivery_issue,rule_single,True,1
+conv_210410,@AmazonHelp Prime member - ordered 2 items yday to my old address. Moved last week. What can I do? Can’t cxl order &amp; no shipper info on site,prime_subscription,rule_single,True,4
+conv_1310069,@AmazonHelp please help. I can't get into the live chat or any contact us area as your site has locked my account. Who do I contact in UK?,account_access,rule_single,True,1
+conv_857045,"HI @AmazonHelp when I signed up for Prime it was for next day delivery 7 days a week, orders on Friday aren't delivered 'til Monday; why? https://t.co/dtKFN361uN",delivery_issue,rule_multi,True,0
+conv_2919942,"@AmazonHelp Hi can you answer questions about Alexa? Specifically I’m wondering about the calling function on the dot. It says “free calling to Canada, US, and Mexico”. How are calls made? Landline? wifi? cellphone? ??",technical_device,rule_single,True,2
+conv_256732,@115850 not accept #UnionBank_Rupay Debit card #LOL but they have option to pay from all #Rupaycards @AmazonHelp https://t.co/GtpVQHRrxa,billing_payment,rule_single,True,0
+conv_1110742,@AmazonHelp your whole customer service team is completely useless. Why can no one contact me from your account management team.,escalation_needed,rule_single,True,1
+conv_1196334,@AmazonHelp I bought a fire stick and your remote broke. please help,technical_device,rule_single,True,0
+conv_1353489,Hey @AmazonHelp my account has been locked for a few days with no reason and now I can't even login to contact support nor place an order.,account_access,rule_single,True,0
+conv_2772426,@AmazonHelp Are you having login issues? I haven’t been able to sign in to see my orders on my computer in multiple browsers.,account_access,rule_single,True,2
+conv_2141347,@AmazonHelp @117795 what a waste of money.... two orders in less than 7 days. Nothing to show for it aside from less money in my acc,billing_payment,rule_single,True,1
+conv_1814095,@213587 [2/2] i follow up with u guys and @AmazonHelp and @119356  from long time now you want me to pay money for repair then what is meant by manufacturing warranty?,billing_payment,rule_single,True,0
+conv_2273270,@AmazonHelp Hi. I need to query a refund which doesn't seem to have been paid in completion. Who do I talk to about this? I can't find anything on the site.,refund_return,rule_single,True,2
+conv_378962,@AmazonHelp how does Amazon stop fraud by buyer and support seller...been calling daily for 22 days...and just more reports and more depts.,escalation_needed,rule_single,True,1
+conv_1240066,@AmazonHelp If I'm ordering an item that's supplied from Amazon Warehouse (from USA to Canada) will there be an import charge/fee?,billing_payment,rule_single,True,0
+conv_1160643,@AmazonHelp If I buy something from AllsortsAccessoriesUK but they say Amazon handle the returns does this qualify for free returns? Thanks!,resolution_confirmation,golden,True,1
+conv_366911,@AmazonHelp if I bought an item off u for £10 and wanna return it but now it's on sale for £7 how much money will I get back?,refund_return,rule_multi,True,1
+conv_72009,"@AmazonHelp I ordered 4 items last week, and Amazon says they all delivered yesterday, but only 3 items came - the PS4 game didn't. Please advise",delivery_issue,rule_single,True,1
+conv_274744,@AmazonHelp order#113-4367791-7462639 was supposed to be delivered 11/24 after tracking the order I see USPS will be delivering it and now I cannot see when it will arrive. If I am paying for prime I expect the 2 day service!,delivery_issue,rule_multi,True,4
+conv_734155,@AmazonHelp is there an issue with your password reset links ?  I’m not receiving any emails from you,account_access,rule_single,True,0
+conv_2636940,"@AmazonHelp hey I've contacted customer service three times in the last week and been promised I'd be helped by your advance team every time, yet I just keep getting my password reset and have never been contacted. What's up with that.",escalation_needed,rule_multi,True,1
+conv_518797,@AmazonHelp Hi. I went to sign into my Prime account today and it said I needed to reset my password. It's was supposed to send me a code in my email but no such code has came. This has but a damper on my holiday shopping. Any solution?,account_access,rule_multi,True,3
+conv_972517,@AmazonHelp trying to see all 26 offers on a product and its not letting me using the android app,non_english,rule_single,True,0
+conv_2929586,"Hey, @115821 @AmazonHelp I ordered an item to be shipped and paid EXTRA (on top of Prime) for one day shipping because I needed it today. If you can’t ship between Columbia, SC and Charlotte, NC (1.5 hours) in one day after taking my money why the hell are you in business?",prime_subscription,rule_conflict,True,1
+conv_2284197,@AmazonHelp Wow! I'm amazed. Got the wrong product for the 3rd time in a row even after repeated assurances that the mistake will be rectified. So much for Amazon assurance. Kindly unlist the product from the website.,order_problem,rule_single,True,1
+conv_2113682,@AmazonHelp Prime-App on my #Panasonic TV doesn't find the ATP NextGen Finals... Any hints how to get them?,non_english,rule_multi,True,1
+conv_2933616,"@AmazonHelp Hi, is Amazon Household available for the German website for a Belgian Amazon Prime Account? #help",prime_subscription,rule_single,True,0
+conv_751687,@AmazonHelp El transportista devolvió un envío que constaba de dos productos. Uno no estaba en stock y se hizo la devolución 1/2,non_english,rule_single,True,0
+conv_407890,@AmazonHelp  u askd me 2provide anoda account apart from Nigeria so u can pay my $120. I provided a U.S account then u blocked my account.,account_access,rule_conflict,True,0
+conv_497373,"@AmazonHelp My Amazon account was hacked this morning. The hackers changed the password and then the email address associated with the account, so I can't log in or access the email support form. I can't call your support line until later. What can be done about this now?",account_access,rule_single,True,2
+conv_3729,@AmazonHelp i reset my password 3 times and it still says incorrect you gotta be shitting me,account_access,rule_single,True,0
+conv_1195798,"@AmazonHelp @115850 U send a product which never switch on, and won't accept a return for it. What do want me to do with it? 1/2",refund_return,rule_single,True,3
+conv_569137,@AmazonHelp I've still not received any sort of response whether helpful or not. I really expected more from Amazon https://t.co/v49zGvvIXe,delivery_issue,rule_single,True,1
+conv_666979,"@116875 @AmazonHelp  díganles a los choferes de paquetería que no sean flojos y traigan los pedidos... ¿Cuál problema del clima? Si ya no es temporada de lluvias... No me lo quisieron traer y los estuve esperando, mañana perderé otro día 😩😩. https://t.co/8mAEm0OSbv",non_english,rule_single,True,0
+conv_1468486,"@AmazonHelp Y'a votre livreur qui est curieux :s
+Il tient à savoir ce que j'achète.... https://t.co/g3qtYUJ12H",non_english,rule_single,True,0
+conv_711093,"@AmazonHelp parcel not delivered on sat as ordered, then false claims of attempted delivery Sun, Mon &amp; Tue. Called twice &amp; spoke to Hermes.",delivery_issue,rule_single,True,1
+conv_170990,@AmazonHelp I need to return something but there is no return slip and the prime app is no help. What to do?,non_english,rule_multi,True,5
+conv_1680689,@115850 @AmazonHelp Hey my #DiwaliKiTayari is going in vain not able to add money to my amazon pay and order gifts to my loved ones. Help,billing_payment,golden,True,0
+conv_1206893,Really sad that my #creakers book is unreadable on my kindle as the font is so small and no way to zoom in. What can I do @AmazonHelp,technical_device,rule_single,True,1
+conv_1402901,"@AmazonHelp @115850 Hi Team. For one of current offers, What's the max no. Of KitKat Gift cards I can add to Amazon Pay bal per account?",escalation_needed,rule_multi,True,1
+conv_2420200,@AmazonHelp  Bonjour la TVA de 8€ sur une commande c est enorme !! J ai 📱on m a dit on me rembourse si j ai un N°de TVA donc c est du vol,non_english,rule_single,True,0
+conv_2550667,@AmazonHelp Ive been charged $15.98 through audible for two months now and they weren’t able to help me. Don’t know what this charge is,billing_payment,rule_single,True,2
+conv_279700,Wish amazon would stop dispatching my packages in Dundee. 😡 What am I paying prime for? I DONT EVEN LIVE IN DUNDEE @AmazonHelp,prime_subscription,rule_single,True,4
+conv_30555,@AmazonHelp if I cancel an order do I get a refund? It hasn't been dispatched yet does that mean you haven't taken any money yet?,refund_return,rule_multi,True,1
+conv_499946,@AmazonHelp please i did not buy anything today but payment procedures were done for something I did not buy !!,billing_payment,rule_single,True,2
+conv_1591482,@AmazonHelp estoy a la espera de recibir 2 envíos (fecha de entr. prevista ayer) mediante amazon logistics y no tengo noticias desde ayer,non_english,rule_single,True,0
+conv_2104958,Quand tu es à 5mins de partir à la Fnac... comme par magie cc @AmazonHelp https://t.co/1X3eS1ren1,non_english,rule_single,True,0
+conv_144073,"@AmazonHelp Hi, I received Fire 7 as present. But now can‘t download the apps. Recorded a short video - something is wrong but have no idea what/where. Help me! https://t.co/nofv7giAX2",order_problem,rule_single,True,0
+conv_2784463,@AmazonHelp What’s the point of prime next day when you get an email at the end of the day saying it’s not coming and to wait another day or 2. Up to 3 days in total for delivery when I pay for a service of next day. Not good customer services,prime_subscription,rule_conflict,True,1
+conv_2831684,"I think that it is complete bullshit that Amazon Prime used to cover next day delivery, prime video and amazon music but nooow they've decided to charge you extra for some music. What's up @AmazonHelp",prime_subscription,rule_conflict,True,0
+conv_870040,Hello @AmazonHelp @115830 could you help me? It's saying I've been locked out of my account since the address wasn't correct.,account_access,rule_single,True,2
+conv_343009,@AmazonHelp once again @123967 skips out on a Sunday Delivery and pushes it off to Monday. Not sure why I even try for Sunday deliveries anymore.,delivery_issue,rule_single,True,0
+conv_800997,@AmazonHelp looking on indeed and see your amazon flex so download the app as it says and get this? Help https://t.co/vMJWCDMrDi,non_english,rule_single,True,1
+conv_2709933,"@AmazonHelp Me han cargado por duplicado una Tv por $11.000 pesos, mi pedido iba a llegar hoy y me han cambiado la fecha de envío. Soy prime! Vaya decepción con vosotros.",non_english,rule_multi,True,0
+conv_2676392,@AmazonHelp There is something wrong with my account. The e-mail has changed and I can't login (or use traditional CS) Please advise.,account_access,golden,True,1
+conv_2553817,"Bonjour @AmazonHelp,
+Un produit que j’ai précommandé (mais que je ne désire plus) vient de mettre envoyé. Comment faire pour le renvoyer ? Y’aura-t-il des frais à ma charge ?
+
+Merci d’avance :)",non_english,rule_multi,True,0
+conv_2580509,@AmazonHelp when will I get my 100$ back from a miss clicked prime join? 😠,prime_subscription,rule_single,True,3
+conv_331351,@AmazonHelp my accounts locked for security purposes. As ur unable 2 verify payment information but yet ur chargin my card for amazon prime?,account_access,rule_multi,True,2
+conv_2776362,@AmazonHelp why have amazon charged my a extra pound which will effectively not allow me to buy an item as I’ve got £100 the item is £99.95?,billing_payment,rule_single,True,1
+conv_2630082,"@AmazonHelp Hi Team, Can u please send me invoice for the order nmbr attached https://t.co/VwTg0gPgFQ",escalation_needed,rule_single,True,1
+conv_535121,"@115850 @AmazonHelp @115851 Amazon is delivering fake and used product to its customers. Shame on you guys being a prime member I did not expect from you at all. ""Your Amazon.in Order # 404-5528223-6682741"" for your ref. Look into this and do needful",prime_subscription,rule_single,True,1
+conv_2522296,"@AmazonHelp I'm having trouble getting into my account and seem to be locked out of it, is there a way to look into this?",account_access,rule_single,True,6
+conv_490596,"@116324 the @amazonhelp and @116324 saga continues, still no parcel even though promised (lied) by Amazon it would be contacted today and Hermes know nothing of this. Advised by Manager at Amazon she would call us back, of course, no call back.",delivery_issue,rule_single,True,4
+conv_1869768,"@AmazonHelp I placed an order over a week ago, and it has been slowly moving from ""preparing to ship"" to ""shipping soon"", with an estimated delivery date of Nov 7-10. Should I wait until the 10th to file a complaint? This never happened in my previous purchases. I paid already.",escalation_needed,rule_multi,True,1
+conv_1397293,@AmazonHelp  ya keep playing with my money and my order ? What’s going on ?,billing_payment,rule_single,True,4
+conv_680384,"@115821 @AmazonHelp please explain how someone can change our account email address but there is NO account security we can speak to about it. 2 days into this already, not sure if fraud charges have been made, and another 24 hour wait ahead. Ridiculous.",escalation_needed,rule_single,True,3
+conv_2526218,@AmazonHelp  been trying for a few days to get acknowledgement that I cannot set a delivery address on my wish lists.  No response at all. =(,escalation_needed,rule_multi,True,0
+conv_238262,@115821 @AmazonHelp you're really the worst. Won't be renewing my prime account when it's up.,prime_subscription,rule_single,True,0
+conv_873767,@AmazonHelp I started a return but never got a packaging slip. Says my refund won’t be processed until return the item. Any tips?,refund_return,rule_single,True,1
+conv_1082349,"@AmazonHelp I still can not access my account. This has been going on over a month. Told I would be contacted, but I have not.",account_access,rule_single,True,2
+conv_1731546,"@AmazonHelp got incomplete guitar kit, please suggest do not want to return/refund",refund_return,rule_single,True,1
+conv_1514366,"@AmazonHelp Artikel Bestellnr. 304-2195493-9612361 war zum garantierten LieferZeitpunkt um 18.30 nicht da --&gt; Storno 
+#Logistics 😠",non_english,rule_single,True,0
+conv_1381483,"@115850 @AmazonHelp  @14523 @57345 deplorable service, tv not working since 1 month. TV is under warranty, engineer says part has to be replaced . No response from customer care . Purchased online from Amazon. Henceforth shld go to a brick &amp; mortar store",escalation_needed,rule_single,True,4
+conv_1085974,@115850 @AmazonHelp @172599 who is Amazon online distribution services pvt ltd. My @1306 @134966 repeatedly used for fraud txn,escalation_needed,rule_single,True,0
+conv_382301,"@AmazonHelp My Prime membership is valid till 15th Nov, if i'll subscribe today will it be vaild till 15 nov 2018",prime_subscription,rule_single,True,0
+conv_109952,@AmazonHelp what do you mean by 2-day shipping? customer care executive is saying that 2-day shipping means we can ship anytime and 2 days are counted after shipping. why is he fooling ?,delivery_issue,rule_single,True,4
+conv_826615,@AmazonHelp my firetv stick won't stay connected to wifi. Every other device works great but this. Any thoughts?,technical_device,rule_single,True,0
+conv_1575614,@AmazonHelp your customer service is literally the worst. been on the phone for 30 mins about a gift card situation and your rep just keeps asking me to hold b/c she doesn't know what she's doing.,billing_payment,rule_single,True,5
+conv_1661458,"@AmazonHelp preorder this about 30secs after it was available, came on to find a ""payment revision"" then this?! What are you playing at? https://t.co/qmXYTGosw4",billing_payment,rule_single,True,0
+conv_667722,"Placed an order through @115821 @AmazonHelp last night, sat here 8 hrs,
+Notified via echo dot it was delivered to my door, open my door and 0.
+Amazon delivery driver steals package??
+REALLY AMAZON? Asks if I want refund but does not fix theft of own workers. 👎🏼",delivery_issue,rule_multi,True,1
+conv_2355248,"@AmazonHelp Amazon, tenho um projeto de programa e queria saber como posso enviar para o comando da Amazon Prime Video Brasil... pode me ajudar? :)",prime_subscription,rule_single,True,0
+conv_2652371,Whats the point in paying for Amazon Prime if 5 of my recent orders have been delayed by 2 or more days?! I call customer service and they just say it's normal... @AmazonHelp #GivingMoneyAway #NoCustomerService,prime_subscription,rule_single,True,4
+conv_253415,@AmazonHelp hello guys I bought a 6 feet charging set and just checked the site and it was delivered on ... https://t.co/kT0NV0YI0V,delivery_issue,rule_single,True,4
+conv_646722,"@AmazonHelp @115821 i hv Order 2 Helios shoe polish TAN &amp; Blue colour bt recd only TAN colour shoe polish.I hv paid for 2 product nt for 1.Pl delivered my blue colour shoe polish or else refund my amt.
+Order date 08/11/17
+Order no 171-3399747-4599521
+Order total 400.00 (2 items) https://t.co/kHX3mH9QAL",delivery_issue,rule_multi,True,4
+conv_210384,"@AmazonHelp If I pay for an Amazon Smile order with a GC, does it still generate income for the charity? Or do you have to pay with CC?",billing_payment,rule_single,True,2
+conv_1635843,@AmazonHelp I ordered a book today..Money was debited but I got a msg that transaction is failed..Plz Resolve,billing_payment,rule_single,True,0
+conv_990915,"@AmazonHelp bjr, comment puis-je regarder Amazon prime vidéo sur ma télé.J’ai une box livebox 4 orange et ma tv est une“simple”TV LCD. Merci",non_english,rule_multi,True,0
+conv_532549,"@AmazonHelp Bjr, mon produit expédié et vendu par amazon le 15 juin 2017 est défectueux. Le centre de retour n'offre pas l'option de retour, comment faire pour bénéficier de la garantie? Merci d'avance",non_english,rule_single,True,0
+conv_1653470,@228164 @115850 @AmazonHelp I want to cancel my order which I placed by mistake. I am not finding cancel order icon. Help ASAP! https://t.co/DUqMTPjjOm,order_problem,rule_single,True,1
+conv_419196,@AmazonHelp i have ordered i phone7 during diwale sale with citibank credit card 0 cost emi option..payment is not being processed..pl help. https://t.co/2U0gVxIO6N,billing_payment,rule_single,True,1
+conv_2678068,@115850 @AmazonHelp u guys have cheated me you have sent me second hand product that too of a different  company. Contact no.  8674954285.Please take this crap back and return my money.,refund_return,rule_multi,True,1
+conv_2376138,@AmazonHelp pls help me i ordered a new pingpong set and i believe i was given the wrong product.,order_problem,rule_single,True,2
+conv_1574266,@AmazonHelp Was sold fraudulent item at @115821. Rep assured me of full refund per A-Z Guarantee. I returned item. AMZN reneged. Help please,refund_return,rule_multi,True,0
+conv_2481739,"@AmazonHelp if I've preordered something and I've used a gift card, can I cancel the pre order and get my gift card balance which was used back?",order_problem,rule_multi,True,1
+conv_2793129,"@115821 @115830 @AmazonHelp Order number: 205-8970008-6516341 
+WHERE IS MY REFUND???? 
+I have been calling u and emailing you for weeks. Your custmoure Care line don’t know what’s going on! Please sort this out ASAP.... #angery #TuesdayThoughts #Amazon #money #refund #nothappy",refund_return,rule_multi,True,0
+conv_1374554,"@AmazonHelp Hello. Can you please tell me how to get a refund, Thanks",refund_return,rule_single,True,1
+conv_1530917,"@AmazonHelp hi, I keep getting the error message saying my password is incorrect no matter how many times I change and reset it. Please help",account_access,rule_single,True,3
+conv_728339,"@AmazonHelp I ordered 1 blu Ray but there was a quantity Error and I got charged for 2, it's on the way, do I return both and start over?",refund_return,rule_multi,True,9
+conv_2331942,@AmazonHelp @115833 is anyone else having trouble with Alexa not finding playlists? Try it:  ask her to play smooth jazz after work.,technical_device,rule_single,True,1
+conv_429029,@119356 @AmazonHelp why could u not post in your website. #Sad response by team amazon. #notexpected https://t.co/leChavjwhe,escalation_needed,rule_single,True,5
+conv_2961716,"@AmazonHelp Pretty little liars season 1 says it’s now on prime but when I go in to it, only episode 9 is, can you let me know why?",prime_subscription,rule_single,True,0
+conv_1890581,"Yo, I wanted to check the price of an item since it was like bugged in sales screen, so I continued until the last page and accidentally clicked checkout with an unvalid card. I'm getting mails about giving info about a card thats no longer valid(also it was virtual)@AmazonHelp",billing_payment,rule_single,True,2
+conv_2937456,@AmazonHelp is there any reason why my gift card won't go through on the website? Every time I type it in it makes me type in a security question and every time says it's wrong and makes me retype one? Been trying for half an hour,billing_payment,rule_single,True,1
+conv_2906719,@AmazonHelp my Kindle keeps freaking out and closing apps by itself. The buttons on the screen look like they're being pressed and I can't open apps.,technical_device,rule_single,True,2
+conv_2275902,@115850 @AmazonHelp I purchased an Egate projector however it is not working - trying to get in touch with Egate but no response - please help in fixing this.,escalation_needed,rule_single,True,2

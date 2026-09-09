@@ -1,0 +1,299 @@
+{
+  "golden_set_size": 200,
+  "train_size": 140,
+  "val_size": 30,
+  "test_size": 30,
+  "intent_distribution": {
+    "non_english": 25,
+    "billing_payment": 35,
+    "delivery_issue": 35,
+    "technical_app": 18,
+    "resolution_confirmation": 10,
+    "general_inquiry": 10,
+    "account_access": 15,
+    "prime_subscription": 13,
+    "refund_return": 16,
+    "escalation_needed": 14,
+    "order_problem": 8,
+    "gift_card": 1
+  },
+  "split_intent_distribution": {
+    "train": {
+      "delivery_issue": 23,
+      "escalation_needed": 11,
+      "prime_subscription": 9,
+      "non_english": 18,
+      "billing_payment": 23,
+      "resolution_confirmation": 8,
+      "general_inquiry": 7,
+      "account_access": 8,
+      "order_problem": 7,
+      "refund_return": 14,
+      "technical_app": 11,
+      "gift_card": 1
+    },
+    "val": {
+      "billing_payment": 5,
+      "resolution_confirmation": 2,
+      "general_inquiry": 2,
+      "account_access": 3,
+      "delivery_issue": 8,
+      "technical_app": 5,
+      "refund_return": 2,
+      "non_english": 2,
+      "prime_subscription": 1
+    },
+    "test": {
+      "prime_subscription": 3,
+      "billing_payment": 7,
+      "account_access": 4,
+      "technical_app": 2,
+      "delivery_issue": 4,
+      "non_english": 5,
+      "general_inquiry": 1,
+      "order_problem": 1,
+      "escalation_needed": 3
+    }
+  },
+  "cluster_purity": {
+    "17": {
+      "distribution": {
+        "non_english": 2,
+        "billing_payment": 3,
+        "delivery_issue": 1,
+        "technical_app": 2
+      },
+      "dominant_intent": "billing_payment",
+      "purity": 0.375
+    },
+    "7": {
+      "distribution": {
+        "non_english": 10
+      },
+      "dominant_intent": "non_english",
+      "purity": 1.0
+    },
+    "19": {
+      "distribution": {
+        "non_english": 10
+      },
+      "dominant_intent": "non_english",
+      "purity": 1.0
+    },
+    "1": {
+      "distribution": {
+        "non_english": 1,
+        "billing_payment": 2,
+        "technical_app": 3,
+        "general_inquiry": 1,
+        "refund_return": 1,
+        "escalation_needed": 1,
+        "gift_card": 1
+      },
+      "dominant_intent": "technical_app",
+      "purity": 0.3
+    },
+    "9": {
+      "distribution": {
+        "non_english": 1,
+        "billing_payment": 4,
+        "delivery_issue": 1,
+        "technical_app": 1,
+        "prime_subscription": 5
+      },
+      "dominant_intent": "prime_subscription",
+      "purity": 0.4166666666666667
+    },
+    "18": {
+      "distribution": {
+        "non_english": 1,
+        "delivery_issue": 1,
+        "technical_app": 1,
+        "refund_return": 4,
+        "order_problem": 3,
+        "billing_payment": 2
+      },
+      "dominant_intent": "refund_return",
+      "purity": 0.3333333333333333
+    },
+    "11": {
+      "distribution": {
+        "billing_payment": 2,
+        "delivery_issue": 1,
+        "technical_app": 1,
+        "general_inquiry": 1,
+        "account_access": 1,
+        "escalation_needed": 3,
+        "order_problem": 3
+      },
+      "dominant_intent": "escalation_needed",
+      "purity": 0.25
+    },
+    "3": {
+      "distribution": {
+        "billing_payment": 3,
+        "general_inquiry": 1,
+        "account_access": 3,
+        "prime_subscription": 1,
+        "escalation_needed": 1,
+        "order_problem": 2,
+        "delivery_issue": 1
+      },
+      "dominant_intent": "billing_payment",
+      "purity": 0.25
+    },
+    "15": {
+      "distribution": {
+        "billing_payment": 3,
+        "technical_app": 3,
+        "resolution_confirmation": 4,
+        "general_inquiry": 1,
+        "account_access": 1,
+        "refund_return": 2,
+        "delivery_issue": 1
+      },
+      "dominant_intent": "resolution_confirmation",
+      "purity": 0.26666666666666666
+    },
+    "5": {
+      "distribution": {
+        "billing_payment": 5,
+        "general_inquiry": 1,
+        "prime_subscription": 4,
+        "refund_return": 1,
+        "delivery_issue": 2
+      },
+      "dominant_intent": "billing_payment",
+      "purity": 0.38461538461538464
+    },
+    "12": {
+      "distribution": {
+        "billing_payment": 1,
+        "delivery_issue": 3,
+        "technical_app": 3,
+        "refund_return": 6
+      },
+      "dominant_intent": "refund_return",
+      "purity": 0.46153846153846156
+    },
+    "16": {
+      "distribution": {
+        "billing_payment": 3,
+        "account_access": 3,
+        "refund_return": 1,
+        "escalation_needed": 1,
+        "delivery_issue": 1
+      },
+      "dominant_intent": "billing_payment",
+      "purity": 0.3333333333333333
+    },
+    "10": {
+      "distribution": {
+        "billing_payment": 2,
+        "general_inquiry": 3,
+        "delivery_issue": 2
+      },
+      "dominant_intent": "general_inquiry",
+      "purity": 0.42857142857142855
+    },
+    "6": {
+      "distribution": {
+        "delivery_issue": 3,
+        "account_access": 5,
+        "prime_subscription": 1,
+        "escalation_needed": 1
+      },
+      "dominant_intent": "account_access",
+      "purity": 0.5
+    },
+    "4": {
+      "distribution": {
+        "delivery_issue": 8,
+        "technical_app": 1
+      },
+      "dominant_intent": "delivery_issue",
+      "purity": 0.8888888888888888
+    },
+    "14": {
+      "distribution": {
+        "delivery_issue": 5,
+        "technical_app": 1,
+        "escalation_needed": 1
+      },
+      "dominant_intent": "delivery_issue",
+      "purity": 0.7142857142857143
+    },
+    "0": {
+      "distribution": {
+        "delivery_issue": 4,
+        "prime_subscription": 1,
+        "escalation_needed": 4,
+        "billing_payment": 1
+      },
+      "dominant_intent": "delivery_issue",
+      "purity": 0.4
+    },
+    "8": {
+      "distribution": {
+        "delivery_issue": 1,
+        "technical_app": 1,
+        "general_inquiry": 2,
+        "account_access": 1,
+        "refund_return": 1,
+        "billing_payment": 3
+      },
+      "dominant_intent": "billing_payment",
+      "purity": 0.3333333333333333
+    },
+    "2": {
+      "distribution": {
+        "technical_app": 1,
+        "resolution_confirmation": 6,
+        "account_access": 1,
+        "prime_subscription": 1,
+        "escalation_needed": 2,
+        "billing_payment": 1
+      },
+      "dominant_intent": "resolution_confirmation",
+      "purity": 0.5
+    }
+  },
+  "annotation_stats": {
+    "total_conversations": 476,
+    "annotated_count": 476,
+    "unique_conversations_annotated": 469,
+    "annotators_found": "{'reviewer'}",
+    "intent_distribution": {
+      "non_english": 78,
+      "billing_payment": 134,
+      "delivery_issue": 151,
+      "technical_app": 24,
+      "resolution_confirmation": 10,
+      "general_inquiry": 10,
+      "account_access": 15,
+      "prime_subscription": 13,
+      "refund_return": 18,
+      "escalation_needed": 14,
+      "order_problem": 8,
+      "gift_card": 1
+    }
+  },
+  "taxonomy_version": "1.0-test",
+  "proposed_intents": [
+    "delivery_issue",
+    "order_problem",
+    "refund_return",
+    "account_access",
+    "technical_app",
+    "billing_payment",
+    "prime_subscription",
+    "seller_marketplace",
+    "gift_card",
+    "general_inquiry",
+    "escalation_needed",
+    "non_english",
+    "spam_irrelevant",
+    "resolution_confirmation"
+  ],
+  "note": "Single-annotator test run - no inter-annotator agreement computed"
+}

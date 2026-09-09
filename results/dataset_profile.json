@@ -1,0 +1,392 @@
+{
+  "dataset_files": [
+    {
+      "name": "sample.csv",
+      "path": "/Users/yashraj/.cache/kagglehub/datasets/thoughtvector/customer-support-on-twitter/versions/10/sample.csv",
+      "size_bytes": 17357,
+      "size_mb": 0.02,
+      "extension": ".csv"
+    },
+    {
+      "name": "twcs.csv",
+      "path": "/Users/yashraj/.cache/kagglehub/datasets/thoughtvector/customer-support-on-twitter/versions/10/twcs/twcs.csv",
+      "size_bytes": 516508641,
+      "size_mb": 492.58,
+      "extension": ".csv"
+    }
+  ],
+  "file_inspection": {
+    "sample.csv": {
+      "file_path": "/Users/yashraj/.cache/kagglehub/datasets/thoughtvector/customer-support-on-twitter/versions/10/sample.csv",
+      "file_size_mb": 0.02,
+      "rows": 93,
+      "columns": [
+        "tweet_id",
+        "author_id",
+        "inbound",
+        "created_at",
+        "text",
+        "response_tweet_id",
+        "in_response_to_tweet_id"
+      ],
+      "dtypes": {
+        "tweet_id": "int64",
+        "author_id": "str",
+        "inbound": "bool",
+        "created_at": "str",
+        "text": "str",
+        "response_tweet_id": "str",
+        "in_response_to_tweet_id": "float64"
+      },
+      "missing_values": {
+        "tweet_id": 0,
+        "author_id": 0,
+        "inbound": 0,
+        "created_at": 0,
+        "text": 0,
+        "response_tweet_id": 28,
+        "in_response_to_tweet_id": 25
+      },
+      "duplicate_rows": 0,
+      "sample_rows": [
+        {
+          "tweet_id": 119237,
+          "author_id": "105834",
+          "inbound": true,
+          "created_at": "Wed Oct 11 06:55:44 +0000 2017",
+          "text": "@AppleSupport causing the reply to be disregarded and the tapped notification under the keyboard is opened\ud83d\ude21\ud83d\ude21\ud83d\ude21",
+          "response_tweet_id": "119236",
+          "in_response_to_tweet_id": NaN
+        },
+        {
+          "tweet_id": 119238,
+          "author_id": "ChaseSupport",
+          "inbound": false,
+          "created_at": "Wed Oct 11 13:25:49 +0000 2017",
+          "text": "@105835 Your business means a lot to us. Please DM your name, zip code and additional details about your concern. ^RR https://t.co/znUu1VJn9r",
+          "response_tweet_id": NaN,
+          "in_response_to_tweet_id": 119239.0
+        },
+        {
+          "tweet_id": 119239,
+          "author_id": "105835",
+          "inbound": true,
+          "created_at": "Wed Oct 11 13:00:09 +0000 2017",
+          "text": "@76328 I really hope you all change but I'm sure you won't! Because you don't have to!",
+          "response_tweet_id": "119238",
+          "in_response_to_tweet_id": NaN
+        },
+        {
+          "tweet_id": 119240,
+          "author_id": "VirginTrains",
+          "inbound": false,
+          "created_at": "Tue Oct 10 15:16:08 +0000 2017",
+          "text": "@105836 LiveChat is online at the moment - https://t.co/SY94VtU8Kq or contact 03331 031 031 option 1, 4, 3 (Leave a message) to request a call back",
+          "response_tweet_id": "119241",
+          "in_response_to_tweet_id": 119242.0
+        },
+        {
+          "tweet_id": 119241,
+          "author_id": "105836",
+          "inbound": true,
+          "created_at": "Tue Oct 10 15:17:21 +0000 2017",
+          "text": "@VirginTrains see attached error message. I've tried leaving a voicemail several times in the past week https://t.co/NxVZjlYx1k",
+          "response_tweet_id": "119243",
+          "in_response_to_tweet_id": 119240.0
+        }
+      ]
+    },
+    "twcs.csv": {
+      "file_path": "/Users/yashraj/.cache/kagglehub/datasets/thoughtvector/customer-support-on-twitter/versions/10/twcs/twcs.csv",
+      "file_size_mb": 492.58,
+      "rows": 2811774,
+      "columns": [
+        "tweet_id",
+        "author_id",
+        "inbound",
+        "created_at",
+        "text",
+        "response_tweet_id",
+        "in_response_to_tweet_id"
+      ],
+      "dtypes": {
+        "tweet_id": "int64",
+        "author_id": "str",
+        "inbound": "bool",
+        "created_at": "str",
+        "text": "str",
+        "response_tweet_id": "str",
+        "in_response_to_tweet_id": "float64"
+      },
+      "missing_values": {
+        "tweet_id": 0,
+        "author_id": 0,
+        "inbound": 0,
+        "created_at": 0,
+        "text": 0,
+        "response_tweet_id": 1040629,
+        "in_response_to_tweet_id": 794335
+      },
+      "duplicate_rows": 0,
+      "sample_rows": [
+        {
+          "tweet_id": 1,
+          "author_id": "sprintcare",
+          "inbound": false,
+          "created_at": "Tue Oct 31 22:10:47 +0000 2017",
+          "text": "@115712 I understand. I would like to assist you. We would need to get you into a private secured link to further assist.",
+          "response_tweet_id": "2",
+          "in_response_to_tweet_id": 3.0
+        },
+        {
+          "tweet_id": 2,
+          "author_id": "115712",
+          "inbound": true,
+          "created_at": "Tue Oct 31 22:11:45 +0000 2017",
+          "text": "@sprintcare and how do you propose we do that",
+          "response_tweet_id": NaN,
+          "in_response_to_tweet_id": 1.0
+        },
+        {
+          "tweet_id": 3,
+          "author_id": "115712",
+          "inbound": true,
+          "created_at": "Tue Oct 31 22:08:27 +0000 2017",
+          "text": "@sprintcare I have sent several private messages and no one is responding as usual",
+          "response_tweet_id": "1",
+          "in_response_to_tweet_id": 4.0
+        },
+        {
+          "tweet_id": 4,
+          "author_id": "sprintcare",
+          "inbound": false,
+          "created_at": "Tue Oct 31 21:54:49 +0000 2017",
+          "text": "@115712 Please send us a Private Message so that we can further assist you. Just click \u2018Message\u2019 at the top of your profile.",
+          "response_tweet_id": "3",
+          "in_response_to_tweet_id": 5.0
+        },
+        {
+          "tweet_id": 5,
+          "author_id": "115712",
+          "inbound": true,
+          "created_at": "Tue Oct 31 21:49:35 +0000 2017",
+          "text": "@sprintcare I did.",
+          "response_tweet_id": "4",
+          "in_response_to_tweet_id": 6.0
+        }
+      ]
+    }
+  },
+  "column_profile": {
+    "columns": [
+      "tweet_id",
+      "author_id",
+      "inbound",
+      "created_at",
+      "text",
+      "response_tweet_id",
+      "in_response_to_tweet_id"
+    ],
+    "dtypes": {
+      "tweet_id": "int64",
+      "author_id": "str",
+      "inbound": "bool",
+      "created_at": "str",
+      "text": "str",
+      "response_tweet_id": "str",
+      "in_response_to_tweet_id": "float64"
+    },
+    "missing_values": {
+      "tweet_id": 0,
+      "author_id": 0,
+      "inbound": 0,
+      "created_at": 0,
+      "text": 0,
+      "response_tweet_id": 1040629,
+      "in_response_to_tweet_id": 794335
+    },
+    "unique_counts": {
+      "tweet_id": 2811774,
+      "author_id": 702777,
+      "inbound": 2,
+      "created_at": 2061666,
+      "text": 2782618,
+      "response_tweet_id": 1771145,
+      "in_response_to_tweet_id": 1774822
+    },
+    "inferred_roles": {
+      "tweet_id": "tweet_id",
+      "author_id": "author/user",
+      "inbound": "unknown",
+      "created_at": "timestamp",
+      "text": "tweet_text",
+      "response_tweet_id": "tweet_id",
+      "in_response_to_tweet_id": "tweet_id"
+    }
+  },
+  "brand_statistics_summary": {
+    "total_brands": 108,
+    "top_brands": [
+      {
+        "brand": "AmazonHelp",
+        "total_tweets": 305000,
+        "customer_tweets": 135160,
+        "support_tweets": 169840,
+        "conversations": 135160,
+        "avg_conversation_length": 2.26
+      },
+      {
+        "brand": "AppleSupport",
+        "total_tweets": 204756,
+        "customer_tweets": 97896,
+        "support_tweets": 106860,
+        "conversations": 97896,
+        "avg_conversation_length": 2.09
+      },
+      {
+        "brand": "Uber_Support",
+        "total_tweets": 102894,
+        "customer_tweets": 46624,
+        "support_tweets": 56270,
+        "conversations": 46624,
+        "avg_conversation_length": 2.21
+      },
+      {
+        "brand": "Delta",
+        "total_tweets": 87091,
+        "customer_tweets": 44838,
+        "support_tweets": 42253,
+        "conversations": 44838,
+        "avg_conversation_length": 1.94
+      },
+      {
+        "brand": "AmericanAir",
+        "total_tweets": 86281,
+        "customer_tweets": 49517,
+        "support_tweets": 36764,
+        "conversations": 49517,
+        "avg_conversation_length": 1.74
+      },
+      {
+        "brand": "SpotifyCares",
+        "total_tweets": 74618,
+        "customer_tweets": 31353,
+        "support_tweets": 43265,
+        "conversations": 31353,
+        "avg_conversation_length": 2.38
+      },
+      {
+        "brand": "Tesco",
+        "total_tweets": 72537,
+        "customer_tweets": 33964,
+        "support_tweets": 38573,
+        "conversations": 33964,
+        "avg_conversation_length": 2.14
+      },
+      {
+        "brand": "VirginTrains",
+        "total_tweets": 65213,
+        "customer_tweets": 37396,
+        "support_tweets": 27817,
+        "conversations": 37396,
+        "avg_conversation_length": 1.74
+      },
+      {
+        "brand": "SouthwestAir",
+        "total_tweets": 64083,
+        "customer_tweets": 35106,
+        "support_tweets": 28977,
+        "conversations": 35106,
+        "avg_conversation_length": 1.83
+      },
+      {
+        "brand": "British_Airways",
+        "total_tweets": 60217,
+        "customer_tweets": 30856,
+        "support_tweets": 29361,
+        "conversations": 30856,
+        "avg_conversation_length": 1.95
+      },
+      {
+        "brand": "comcastcares",
+        "total_tweets": 56309,
+        "customer_tweets": 23278,
+        "support_tweets": 33031,
+        "conversations": 23278,
+        "avg_conversation_length": 2.42
+      },
+      {
+        "brand": "TMobileHelp",
+        "total_tweets": 56281,
+        "customer_tweets": 21964,
+        "support_tweets": 34317,
+        "conversations": 21964,
+        "avg_conversation_length": 2.56
+      },
+      {
+        "brand": "XboxSupport",
+        "total_tweets": 52681,
+        "customer_tweets": 28124,
+        "support_tweets": 24557,
+        "conversations": 28124,
+        "avg_conversation_length": 1.87
+      },
+      {
+        "brand": "Ask_Spectrum",
+        "total_tweets": 49536,
+        "customer_tweets": 23676,
+        "support_tweets": 25860,
+        "conversations": 23676,
+        "avg_conversation_length": 2.09
+      },
+      {
+        "brand": "GWRHelp",
+        "total_tweets": 46385,
+        "customer_tweets": 27021,
+        "support_tweets": 19364,
+        "conversations": 27021,
+        "avg_conversation_length": 1.72
+      },
+      {
+        "brand": "ATVIAssist",
+        "total_tweets": 42391,
+        "customer_tweets": 24741,
+        "support_tweets": 17650,
+        "conversations": 24741,
+        "avg_conversation_length": 1.71
+      },
+      {
+        "brand": "sainsburys",
+        "total_tweets": 42328,
+        "customer_tweets": 22862,
+        "support_tweets": 19466,
+        "conversations": 22862,
+        "avg_conversation_length": 1.85
+      },
+      {
+        "brand": "AskPlayStation",
+        "total_tweets": 41361,
+        "customer_tweets": 22263,
+        "support_tweets": 19098,
+        "conversations": 22263,
+        "avg_conversation_length": 1.86
+      },
+      {
+        "brand": "ChipotleTweets",
+        "total_tweets": 40564,
+        "customer_tweets": 21815,
+        "support_tweets": 18749,
+        "conversations": 21815,
+        "avg_conversation_length": 1.86
+      },
+      {
+        "brand": "hulu_support",
+        "total_tweets": 40487,
+        "customer_tweets": 18615,
+        "support_tweets": 21872,
+        "conversations": 18615,
+        "avg_conversation_length": 2.17
+      }
+    ]
+  }
+}

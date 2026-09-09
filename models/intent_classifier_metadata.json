@@ -1,0 +1,534 @@
+{
+  "model_type": "TF-IDF + LogisticRegression (calibrated)",
+  "intents": [
+    "delivery_issue",
+    "order_problem",
+    "account_access",
+    "technical_app",
+    "escalation_needed",
+    "non_english",
+    "resolution_confirmation",
+    "general_inquiry"
+  ],
+  "intent_mapping": {
+    "delivery_issue": "delivery_issue",
+    "tracking_request": "delivery_issue",
+    "order_problem": "order_problem",
+    "refund_return": "order_problem",
+    "account_access": "account_access",
+    "billing_payment": "account_access",
+    "technical_app": "technical_app",
+    "prime_subscription": "technical_app",
+    "escalation_needed": "escalation_needed",
+    "non_english": "non_english",
+    "resolution_confirmation": "resolution_confirmation",
+    "general_inquiry": "general_inquiry",
+    "seller_marketplace": "general_inquiry",
+    "gift_card": "general_inquiry",
+    "spam_irrelevant": "general_inquiry"
+  },
+  "train_results": {
+    "split": "train",
+    "accuracy": 0.85,
+    "f1_macro": 0.7634,
+    "f1_weighted": 0.8235,
+    "avg_confidence": 0.4314,
+    "classification_report": {
+      "account_access": {
+        "precision": 0.717948717948718,
+        "recall": 0.9032258064516129,
+        "f1-score": 0.8,
+        "support": 31.0
+      },
+      "delivery_issue": {
+        "precision": 0.8846153846153846,
+        "recall": 1.0,
+        "f1-score": 0.9387755102040817,
+        "support": 23.0
+      },
+      "escalation_needed": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.9090909090909091,
+        "support": 11.0
+      },
+      "general_inquiry": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 8.0
+      },
+      "non_english": {
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "f1-score": 0.972972972972973,
+        "support": 18.0
+      },
+      "order_problem": {
+        "precision": 0.8076923076923077,
+        "recall": 1.0,
+        "f1-score": 0.8936170212765957,
+        "support": 21.0
+      },
+      "resolution_confirmation": {
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1-score": 0.7692307692307693,
+        "support": 8.0
+      },
+      "technical_app": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1-score": 0.8235294117647058,
+        "support": 20.0
+      },
+      "accuracy": 0.85,
+      "macro avg": {
+        "precision": 0.7833394675499938,
+        "recall": 0.7671645894428153,
+        "f1-score": 0.7634020743175043,
+        "support": 140.0
+      },
+      "weighted avg": {
+        "precision": 0.8186909581646424,
+        "recall": 0.85,
+        "f1-score": 0.82354101488683,
+        "support": 140.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        28,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        14,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        2,
+        5,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "intent_distribution": {
+      "delivery_issue": 23,
+      "escalation_needed": 11,
+      "technical_app": 20,
+      "non_english": 18,
+      "account_access": 31,
+      "resolution_confirmation": 8,
+      "general_inquiry": 8,
+      "order_problem": 21
+    },
+    "predictions_distribution": {
+      "delivery_issue": 26,
+      "escalation_needed": 11,
+      "account_access": 39,
+      "non_english": 19,
+      "resolution_confirmation": 5,
+      "order_problem": 26,
+      "technical_app": 14
+    }
+  },
+  "val_results": {
+    "split": "val",
+    "accuracy": 0.5667,
+    "f1_macro": 0.3705,
+    "f1_weighted": 0.5262,
+    "avg_confidence": 0.3714,
+    "classification_report": {
+      "account_access": {
+        "precision": 0.38461538461538464,
+        "recall": 0.625,
+        "f1-score": 0.47619047619047616,
+        "support": 8.0
+      },
+      "delivery_issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "escalation_needed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "general_inquiry": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "non_english": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "order_problem": {
+        "precision": 0.4,
+        "recall": 1.0,
+        "f1-score": 0.5714285714285714,
+        "support": 2.0
+      },
+      "resolution_confirmation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "technical_app": {
+        "precision": 0.5,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.25,
+        "support": 6.0
+      },
+      "accuracy": 0.5666666666666667,
+      "macro avg": {
+        "precision": 0.41057692307692306,
+        "recall": 0.41145833333333337,
+        "f1-score": 0.3705357142857143,
+        "support": 30.0
+      },
+      "weighted avg": {
+        "precision": 0.5625641025641026,
+        "recall": 0.5666666666666667,
+        "f1-score": 0.5261904761904762,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "intent_distribution": {
+      "account_access": 8,
+      "resolution_confirmation": 2,
+      "general_inquiry": 2,
+      "delivery_issue": 8,
+      "technical_app": 6,
+      "order_problem": 2,
+      "non_english": 2
+    },
+    "predictions_distribution": {
+      "account_access": 13,
+      "delivery_issue": 8,
+      "escalation_needed": 1,
+      "order_problem": 5,
+      "technical_app": 2,
+      "non_english": 1
+    }
+  },
+  "test_results": {
+    "split": "test",
+    "accuracy": 0.7333,
+    "f1_macro": 0.6357,
+    "f1_weighted": 0.6698,
+    "avg_confidence": 0.4016,
+    "classification_report": {
+      "account_access": {
+        "precision": 0.625,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.7407407407407407,
+        "support": 11.0
+      },
+      "delivery_issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "escalation_needed": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 3.0
+      },
+      "general_inquiry": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "non_english": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 5.0
+      },
+      "order_problem": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "technical_app": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 5.0
+      },
+      "accuracy": 0.7333333333333333,
+      "macro avg": {
+        "precision": 0.636904761904762,
+        "recall": 0.6536796536796537,
+        "f1-score": 0.6356902356902356,
+        "support": 30.0
+      },
+      "weighted avg": {
+        "precision": 0.6347222222222223,
+        "recall": 0.7333333333333333,
+        "f1-score": 0.669786756453423,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "intent_distribution": {
+      "technical_app": 5,
+      "account_access": 11,
+      "delivery_issue": 4,
+      "non_english": 5,
+      "general_inquiry": 1,
+      "order_problem": 1,
+      "escalation_needed": 3
+    },
+    "predictions_distribution": {
+      "account_access": 16,
+      "technical_app": 1,
+      "non_english": 6,
+      "delivery_issue": 4,
+      "order_problem": 1,
+      "escalation_needed": 2
+    }
+  },
+  "random_seed": 42
+}

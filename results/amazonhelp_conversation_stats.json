@@ -1,0 +1,14 @@
+{
+  "total_conversations": 23055,
+  "total_messages": 109587,
+  "customer_messages": 60594,
+  "support_messages": 48993,
+  "avg_messages_per_conversation": 4.75,
+  "median_messages_per_conversation": 4.0,
+  "p90_conversation_length": 9.0,
+  "pct_conversations_with_support": 99.93,
+  "pct_conversations_multi_customer": 62.36,
+  "pct_conversations_multi_support": 53.32,
+  "min_length": 2,
+  "max_length": 448
+}

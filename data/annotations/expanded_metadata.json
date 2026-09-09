@@ -1,0 +1,49 @@
+{
+  "total_examples": 4123,
+  "train_size": 3298,
+  "val_size": 412,
+  "test_size": 413,
+  "intent_distribution": {
+    "escalation_needed": 500,
+    "prime_subscription": 500,
+    "non_english": 500,
+    "technical_device": 500,
+    "billing_payment": 500,
+    "refund_return": 500,
+    "account_access": 394,
+    "delivery_issue": 500,
+    "order_problem": 155,
+    "resolution_confirmation": 74
+  },
+  "label_source_distribution": {
+    "rule_multi": 688,
+    "rule_single": 3046,
+    "rule_conflict": 244,
+    "golden": 145
+  },
+  "intent_counts_before_balance": {
+    "technical_device": 505,
+    "delivery_issue": 2000,
+    "prime_subscription": 899,
+    "account_access": 394,
+    "non_english": 2000,
+    "billing_payment": 748,
+    "escalation_needed": 512,
+    "refund_return": 1055,
+    "resolution_confirmation": 74,
+    "order_problem": 155
+  },
+  "refined_intents": [
+    "delivery_issue",
+    "order_problem",
+    "refund_return",
+    "account_access",
+    "billing_payment",
+    "technical_device",
+    "prime_subscription",
+    "escalation_needed",
+    "non_english",
+    "resolution_confirmation"
+  ],
+  "note": "Auto-labeled from resolved conversations + golden human labels"
+}

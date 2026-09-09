@@ -1,0 +1,316 @@
+{
+  "temperature": 0.62517277305535,
+  "thresholds": {
+    "account_access": 0.97,
+    "billing_payment": 0.73,
+    "delivery_issue": 0.82,
+    "escalation_needed": 1.0,
+    "non_english": 0.33,
+    "order_problem": 0.8099999999999999,
+    "prime_billing": 0.5,
+    "prime_subscription": 0.95,
+    "refund_return": 0.8,
+    "resolution_confirmation": 0.1,
+    "technical_app": 0.5,
+    "technical_device": 0.1
+  },
+  "eval_results": {
+    "total": 30,
+    "accuracy": 0.5666666666666667,
+    "auto_handle_rate": 0.6333333333333333,
+    "auto_precision": 0.5789473684210527,
+    "escalate_rate": 0.36666666666666664,
+    "per_intent": {
+      "escalation_needed": {
+        "total": 3,
+        "accuracy": 0.3333333333333333,
+        "auto_handle_rate": 0.3333333333333333,
+        "auto_precision": 0.0
+      },
+      "billing_payment": {
+        "total": 7,
+        "accuracy": 0.2857142857142857,
+        "auto_handle_rate": 0.8571428571428571,
+        "auto_precision": 0.3333333333333333
+      },
+      "order_problem": {
+        "total": 1,
+        "accuracy": 1.0,
+        "auto_handle_rate": 1.0,
+        "auto_precision": 1.0
+      },
+      "non_english": {
+        "total": 6,
+        "accuracy": 0.8333333333333334,
+        "auto_handle_rate": 1.0,
+        "auto_precision": 0.8333333333333334
+      },
+      "account_access": {
+        "total": 4,
+        "accuracy": 0.75,
+        "auto_handle_rate": 0.5,
+        "auto_precision": 0.5
+      },
+      "delivery_issue": {
+        "total": 4,
+        "accuracy": 0.5,
+        "auto_handle_rate": 0.0,
+        "auto_precision": 0
+      },
+      "prime_subscription": {
+        "total": 3,
+        "accuracy": 1.0,
+        "auto_handle_rate": 0.6666666666666666,
+        "auto_precision": 1.0
+      },
+      "technical_app": {
+        "total": 2,
+        "accuracy": 0.0,
+        "auto_handle_rate": 0.5,
+        "auto_precision": 0.0
+      }
+    },
+    "detailed_results": [
+      {
+        "true": "prime_subscription",
+        "pred": "prime_subscription",
+        "conf": 0.9568026360052789,
+        "threshold": 0.95,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "billing_payment",
+        "pred": "non_english",
+        "conf": 0.8827347468628299,
+        "threshold": 0.33,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "account_access",
+        "pred": "account_access",
+        "conf": 0.9623776388725086,
+        "threshold": 0.97,
+        "auto_handle": "False",
+        "correct": true
+      },
+      {
+        "true": "billing_payment",
+        "pred": "delivery_issue",
+        "conf": 0.8048069919883467,
+        "threshold": 0.82,
+        "auto_handle": "False",
+        "correct": false
+      },
+      {
+        "true": "billing_payment",
+        "pred": "billing_payment",
+        "conf": 0.7700564026131705,
+        "threshold": 0.73,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "technical_app",
+        "pred": "delivery_issue",
+        "conf": 0.9339927830021024,
+        "threshold": 0.82,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "delivery_issue",
+        "pred": "delivery_issue",
+        "conf": 0.8048069919883467,
+        "threshold": 0.82,
+        "auto_handle": "False",
+        "correct": true
+      },
+      {
+        "true": "technical_app",
+        "pred": "refund_return",
+        "conf": 0.4726457399103139,
+        "threshold": 0.8,
+        "auto_handle": "False",
+        "correct": false
+      },
+      {
+        "true": "account_access",
+        "pred": "account_access",
+        "conf": 0.8460949464012252,
+        "threshold": 0.97,
+        "auto_handle": "False",
+        "correct": true
+      },
+      {
+        "true": "non_english",
+        "pred": "non_english",
+        "conf": 0.9824561403508772,
+        "threshold": 0.33,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "account_access",
+        "pred": "account_access",
+        "conf": 0.9817436661698957,
+        "threshold": 0.97,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "non_english",
+        "pred": "account_access",
+        "conf": 0.9781720988937561,
+        "threshold": 0.97,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "non_english",
+        "pred": "non_english",
+        "conf": 0.9824561403508772,
+        "threshold": 0.33,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "billing_payment",
+        "pred": "prime_subscription",
+        "conf": 0.9805502493239724,
+        "threshold": 0.95,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "prime_subscription",
+        "pred": "prime_subscription",
+        "conf": 0.9596466440427303,
+        "threshold": 0.95,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "delivery_issue",
+        "pred": "prime_subscription",
+        "conf": 0.6545454545454545,
+        "threshold": 0.95,
+        "auto_handle": "False",
+        "correct": false
+      },
+      {
+        "true": "billing_payment",
+        "pred": "billing_payment",
+        "conf": 0.9460525957106166,
+        "threshold": 0.73,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "order_problem",
+        "pred": "order_problem",
+        "conf": 0.9161430288791139,
+        "threshold": 0.8099999999999999,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "account_access",
+        "pred": "billing_payment",
+        "conf": 0.8926181400549139,
+        "threshold": 0.73,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "non_english",
+        "pred": "non_english",
+        "conf": 0.9721859249579989,
+        "threshold": 0.33,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "escalation_needed",
+        "pred": "billing_payment",
+        "conf": 0.7363077496274217,
+        "threshold": 0.73,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "delivery_issue",
+        "pred": "delivery_issue",
+        "conf": 0.676392572944297,
+        "threshold": 0.82,
+        "auto_handle": "False",
+        "correct": true
+      },
+      {
+        "true": "delivery_issue",
+        "pred": "order_problem",
+        "conf": 0.8087522765850805,
+        "threshold": 0.8099999999999999,
+        "auto_handle": "False",
+        "correct": false
+      },
+      {
+        "true": "billing_payment",
+        "pred": "prime_subscription",
+        "conf": 0.9522441651705568,
+        "threshold": 0.95,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "billing_payment",
+        "pred": "technical_device",
+        "conf": 1.0,
+        "threshold": 0.1,
+        "auto_handle": "True",
+        "correct": false
+      },
+      {
+        "true": "non_english",
+        "pred": "non_english",
+        "conf": 0.9817436661698957,
+        "threshold": 0.33,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "escalation_needed",
+        "pred": "order_problem",
+        "conf": 0.6992779731908597,
+        "threshold": 0.8099999999999999,
+        "auto_handle": "False",
+        "correct": false
+      },
+      {
+        "true": "prime_subscription",
+        "pred": "prime_subscription",
+        "conf": 0.9443880293889255,
+        "threshold": 0.95,
+        "auto_handle": "False",
+        "correct": true
+      },
+      {
+        "true": "non_english",
+        "pred": "non_english",
+        "conf": 0.9721859249579989,
+        "threshold": 0.33,
+        "auto_handle": "True",
+        "correct": true
+      },
+      {
+        "true": "escalation_needed",
+        "pred": "escalation_needed",
+        "conf": 0.8265213216437045,
+        "threshold": 1.0,
+        "auto_handle": false,
+        "correct": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+# Python dependencies for Photo Organizer Backend
+
+# Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# Image processing (lightweight)
+opencv-python-headless==4.8.1.78
+numpy==1.26.2
+
+# Face detection & recognition (lightweight alternatives)
+# face-recognition requires dlib which is heavy - using opencv instead
+# For face detection we'll use OpenCV's built-in Haar cascades or DNN
+
+# Clustering
+scikit-learn==1.3.2
+
+# Utilities
+python-json-logger==2.0.7
+httpx==0.26.0
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0

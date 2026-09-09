@@ -1,0 +1,1326 @@
+[
+  {
+    "name": "Rule-based (Keywords)",
+    "total": 30,
+    "correct": 5,
+    "accuracy": 0.16666666666666666,
+    "avg_confidence": 0.7033333333333334,
+    "per_intent": {
+      "delivery_issue": {
+        "total": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "order_problem": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "refund_return": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "account_access": {
+        "total": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "billing_payment": {
+        "total": 7,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "technical_device": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "prime_subscription": {
+        "total": 3,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "escalation_needed": {
+        "total": 3,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "non_english": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "resolution_confirmation": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      }
+    },
+    "predictions": [
+      {
+        "conversation_id": "conv_1972809",
+        "query": "@AmazonHelp hi is Amazon Prime not next day anymore?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_390812",
+        "query": "Grade wieder Amazon Prime gekauft hab es einfach vermisst @AmazonHelp xD",
+        "true_intent": "billing_payment",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_729359",
+        "query": "Hey @115821 you login verification codes are not getting sent... \"Resend code\" does not help... @Ama",
+        "true_intent": "account_access",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_349400",
+        "query": "why won't my books ship . @AmazonHelp",
+        "true_intent": "billing_payment",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_322861",
+        "query": "@15863 @AmazonHelp see wat happened toy sandal withn a mnth tym.Who s going to pay us for this #Nast",
+        "true_intent": "billing_payment",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1410758",
+        "query": "@AmazonHelp does instant pick up show up only to those whose default addy is near the pickup area?",
+        "true_intent": "technical_app",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2410448",
+        "query": "@AmazonHelp I selected free shipping so it should only be $129 right? https://t.co/2WMGqTNYXP",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2777474",
+        "query": "LEFT AT FRONT DOOR. DIDN'T EVEN KNOCK ON THE BLOODY DOOR. BOOK DENTED, SPINE BROKEN. @AmazonHelp ???",
+        "true_intent": "technical_app",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1322538",
+        "query": "@AmazonHelp My https://t.co/GXVXNgh8mt  account has been locked for using my virtual debit card . Is",
+        "true_intent": "account_access",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.8,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2226499",
+        "query": "Por favor @AmazonHelp empezad a poner la factura en papel en todos los env\u00edos a Canarias. Normalment",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_448713",
+        "query": "@AmazonHelp Attempting to sign in to place an order. Requires \"verification code\" via email - why, I",
+        "true_intent": "account_access",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_179192",
+        "query": "@123583 Redeemed my @AmazonHelp preorder code on Sunday but just get \"Not available for purchase\" on",
+        "true_intent": "general_inquiry",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2252986",
+        "query": "\u00bfAunque lo haya pedido en preventa lo van a empezar a enviar hasta el 14? @AmazonHelp @116875 https:",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1424702",
+        "query": "@AmazonHelp this is what I prime for really??? Only just updated - terrible!!!!! https://t.co/9ULRuO",
+        "true_intent": "billing_payment",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2405179",
+        "query": "@AmazonHelp Hi there, am I able to transfer my UK Prime account to IRL?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2276497",
+        "query": "@115830 @AmazonHelp I am a Prime member yet I am still waiting for my goods ordered on Thursday!!! S",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.8,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_238917",
+        "query": "Hi @115850 the payment for a recent order did not go through earlier but now the money has been debi",
+        "true_intent": "billing_payment",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2389707",
+        "query": "@AmazonHelp @115850 5 mins back received order. Why sending damaged product? Order Id:\u00a0408-1966445-1",
+        "true_intent": "order_problem",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.8,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1035123",
+        "query": "I did not receive cashback of1500 INR on using SBI card for buying OnePlus 5 device on Amazon. @1158",
+        "true_intent": "account_access",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_454549",
+        "query": "@AmazonHelp J'ai essay\u00e9 de commander Xenoblades 2 mais zouip, rupture de stock juste avant de conclu",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2449711",
+        "query": "@115850 @AmazonHelp Hi Team I got a Amazon giftcard today but while adding its showing invalid code.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.8,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2813475",
+        "query": "@AmazonHelp Okay - got a Sunday Amazon Delivery Service today. They had a picture of the door they d",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.8,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2518123",
+        "query": "@AmazonHelp my gift delivered to the wrong address even if previously communicated the right one via",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_822201",
+        "query": "@AmazonHelp hoping u can help prime photos... can u tell me why there's a discrepancy in the numbers",
+        "true_intent": "billing_payment",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1560840",
+        "query": "@AmazonHelp your a joke why has this happened? Again? I'm making a movie and I need this Tripod! (#a",
+        "true_intent": "billing_payment",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2483976",
+        "query": "Bonjour @14272. Apr\u00e8s commande \u00e0 @120533 @AmazonHelp le colis devait arriver aujourd'hui avant 16h00",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.8,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2350894",
+        "query": "@AmazonHelp @115821 75% of my recent orders have arrived late and your chat team has no answers.  Am",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.8,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1210196",
+        "query": "@AmazonHelp Hello, I accidentally purchased the full price prime and I am still a student, could som",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.7,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_751253",
+        "query": "@AmazonHelp: Hace casi 1 mes compr\u00e9 1 art\u00edculo y a pesar de que en el sitio aparece como disponible ",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1314594",
+        "query": "@AmazonHelp I am slightly frustrated with the availed service.please contact me I have an issue.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.6,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "name": "TF-IDF + LR",
+    "total": 30,
+    "correct": 22,
+    "accuracy": 0.7333333333333333,
+    "avg_confidence": 0.7448249667375942,
+    "per_intent": {
+      "delivery_issue": {
+        "total": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "order_problem": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0
+      },
+      "refund_return": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "account_access": {
+        "total": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      },
+      "billing_payment": {
+        "total": 7,
+        "correct": 3,
+        "accuracy": 0.42857142857142855
+      },
+      "technical_device": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "prime_subscription": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "escalation_needed": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "non_english": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "resolution_confirmation": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      }
+    },
+    "predictions": [
+      {
+        "conversation_id": "conv_1972809",
+        "query": "@AmazonHelp hi is Amazon Prime not next day anymore?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.8864598177246278,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_390812",
+        "query": "Grade wieder Amazon Prime gekauft hab es einfach vermisst @AmazonHelp xD",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.5802988711518199,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_729359",
+        "query": "Hey @115821 you login verification codes are not getting sent... \"Resend code\" does not help... @Ama",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.8820606153508256,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_349400",
+        "query": "why won't my books ship . @AmazonHelp",
+        "true_intent": "billing_payment",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "technical_device",
+        "confidence": 0.6349508453533294,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_322861",
+        "query": "@15863 @AmazonHelp see wat happened toy sandal withn a mnth tym.Who s going to pay us for this #Nast",
+        "true_intent": "billing_payment",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.7988063709667879,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1410758",
+        "query": "@AmazonHelp does instant pick up show up only to those whose default addy is near the pickup area?",
+        "true_intent": "technical_app",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "technical_device",
+        "confidence": 0.6526750042270426,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2410448",
+        "query": "@AmazonHelp I selected free shipping so it should only be $129 right? https://t.co/2WMGqTNYXP",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.8347213061253657,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2777474",
+        "query": "LEFT AT FRONT DOOR. DIDN'T EVEN KNOCK ON THE BLOODY DOOR. BOOK DENTED, SPINE BROKEN. @AmazonHelp ???",
+        "true_intent": "technical_app",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.412660077411533,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1322538",
+        "query": "@AmazonHelp My https://t.co/GXVXNgh8mt  account has been locked for using my virtual debit card . Is",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.5655973454681864,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2226499",
+        "query": "Por favor @AmazonHelp empezad a poner la factura en papel en todos los env\u00edos a Canarias. Normalment",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9526362494141463,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_448713",
+        "query": "@AmazonHelp Attempting to sign in to place an order. Requires \"verification code\" via email - why, I",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.8825214784022694,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_179192",
+        "query": "@123583 Redeemed my @AmazonHelp preorder code on Sunday but just get \"Not available for purchase\" on",
+        "true_intent": "general_inquiry",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.3581947040744328,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2252986",
+        "query": "\u00bfAunque lo haya pedido en preventa lo van a empezar a enviar hasta el 14? @AmazonHelp @116875 https:",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.917940455145373,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1424702",
+        "query": "@AmazonHelp this is what I prime for really??? Only just updated - terrible!!!!! https://t.co/9ULRuO",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.8288651265410453,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2405179",
+        "query": "@AmazonHelp Hi there, am I able to transfer my UK Prime account to IRL?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.6787401322574979,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2276497",
+        "query": "@115830 @AmazonHelp I am a Prime member yet I am still waiting for my goods ordered on Thursday!!! S",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.5928101297665019,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_238917",
+        "query": "Hi @115850 the payment for a recent order did not go through earlier but now the money has been debi",
+        "true_intent": "billing_payment",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.8327401707500149,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2389707",
+        "query": "@AmazonHelp @115850 5 mins back received order. Why sending damaged product? Order Id:\u00a0408-1966445-1",
+        "true_intent": "order_problem",
+        "predicted_intent": "order_problem",
+        "raw_predicted": "order_problem",
+        "confidence": 0.6991802878803611,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1035123",
+        "query": "I did not receive cashback of1500 INR on using SBI card for buying OnePlus 5 device on Amazon. @1158",
+        "true_intent": "account_access",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.608991328087973,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_454549",
+        "query": "@AmazonHelp J'ai essay\u00e9 de commander Xenoblades 2 mais zouip, rupture de stock juste avant de conclu",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9269834799837882,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2449711",
+        "query": "@115850 @AmazonHelp Hi Team I got a Amazon giftcard today but while adding its showing invalid code.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "escalation_needed",
+        "raw_predicted": "escalation_needed",
+        "confidence": 0.8387668891665988,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2813475",
+        "query": "@AmazonHelp Okay - got a Sunday Amazon Delivery Service today. They had a picture of the door they d",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.679666147631413,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2518123",
+        "query": "@AmazonHelp my gift delivered to the wrong address even if previously communicated the right one via",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.6429315840200674,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_822201",
+        "query": "@AmazonHelp hoping u can help prime photos... can u tell me why there's a discrepancy in the numbers",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.8119668328049898,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1560840",
+        "query": "@AmazonHelp your a joke why has this happened? Again? I'm making a movie and I need this Tripod! (#a",
+        "true_intent": "billing_payment",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.5741027106686526,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2483976",
+        "query": "Bonjour @14272. Apr\u00e8s commande \u00e0 @120533 @AmazonHelp le colis devait arriver aujourd'hui avant 16h00",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9523801039798842,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2350894",
+        "query": "@AmazonHelp @115821 75% of my recent orders have arrived late and your chat team has no answers.  Am",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "escalation_needed",
+        "raw_predicted": "escalation_needed",
+        "confidence": 0.8508882054609487,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1210196",
+        "query": "@AmazonHelp Hello, I accidentally purchased the full price prime and I am still a student, could som",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.8065286540875425,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_751253",
+        "query": "@AmazonHelp: Hace casi 1 mes compr\u00e9 1 art\u00edculo y a pesar de que en el sitio aparece como disponible ",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9415447388596082,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1314594",
+        "query": "@AmazonHelp I am slightly frustrated with the availed service.please contact me I have an issue.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "escalation_needed",
+        "raw_predicted": "escalation_needed",
+        "confidence": 0.7181393393652002,
+        "correct": true
+      }
+    ]
+  },
+  {
+    "name": "Generic (Keyword Heuristics)",
+    "total": 30,
+    "correct": 9,
+    "accuracy": 0.3,
+    "avg_confidence": 0.3433333333333335,
+    "per_intent": {
+      "delivery_issue": {
+        "total": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      },
+      "order_problem": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "refund_return": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "account_access": {
+        "total": 4,
+        "correct": 2,
+        "accuracy": 0.5
+      },
+      "billing_payment": {
+        "total": 7,
+        "correct": 1,
+        "accuracy": 0.14285714285714285
+      },
+      "technical_device": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "prime_subscription": {
+        "total": 3,
+        "correct": 2,
+        "accuracy": 0.6666666666666666
+      },
+      "escalation_needed": {
+        "total": 3,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "non_english": {
+        "total": 5,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "resolution_confirmation": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      }
+    },
+    "predictions": [
+      {
+        "conversation_id": "conv_1972809",
+        "query": "@AmazonHelp hi is Amazon Prime not next day anymore?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_390812",
+        "query": "Grade wieder Amazon Prime gekauft hab es einfach vermisst @AmazonHelp xD",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.4,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_729359",
+        "query": "Hey @115821 you login verification codes are not getting sent... \"Resend code\" does not help... @Ama",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_349400",
+        "query": "why won't my books ship . @AmazonHelp",
+        "true_intent": "billing_payment",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_322861",
+        "query": "@15863 @AmazonHelp see wat happened toy sandal withn a mnth tym.Who s going to pay us for this #Nast",
+        "true_intent": "billing_payment",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1410758",
+        "query": "@AmazonHelp does instant pick up show up only to those whose default addy is near the pickup area?",
+        "true_intent": "technical_app",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2410448",
+        "query": "@AmazonHelp I selected free shipping so it should only be $129 right? https://t.co/2WMGqTNYXP",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2777474",
+        "query": "LEFT AT FRONT DOOR. DIDN'T EVEN KNOCK ON THE BLOODY DOOR. BOOK DENTED, SPINE BROKEN. @AmazonHelp ???",
+        "true_intent": "technical_app",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1322538",
+        "query": "@AmazonHelp My https://t.co/GXVXNgh8mt  account has been locked for using my virtual debit card . Is",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2226499",
+        "query": "Por favor @AmazonHelp empezad a poner la factura en papel en todos los env\u00edos a Canarias. Normalment",
+        "true_intent": "non_english",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_448713",
+        "query": "@AmazonHelp Attempting to sign in to place an order. Requires \"verification code\" via email - why, I",
+        "true_intent": "account_access",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_179192",
+        "query": "@123583 Redeemed my @AmazonHelp preorder code on Sunday but just get \"Not available for purchase\" on",
+        "true_intent": "general_inquiry",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2252986",
+        "query": "\u00bfAunque lo haya pedido en preventa lo van a empezar a enviar hasta el 14? @AmazonHelp @116875 https:",
+        "true_intent": "non_english",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1424702",
+        "query": "@AmazonHelp this is what I prime for really??? Only just updated - terrible!!!!! https://t.co/9ULRuO",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.4,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2405179",
+        "query": "@AmazonHelp Hi there, am I able to transfer my UK Prime account to IRL?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.4,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2276497",
+        "query": "@115830 @AmazonHelp I am a Prime member yet I am still waiting for my goods ordered on Thursday!!! S",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_238917",
+        "query": "Hi @115850 the payment for a recent order did not go through earlier but now the money has been debi",
+        "true_intent": "billing_payment",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2389707",
+        "query": "@AmazonHelp @115850 5 mins back received order. Why sending damaged product? Order Id:\u00a0408-1966445-1",
+        "true_intent": "order_problem",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1035123",
+        "query": "I did not receive cashback of1500 INR on using SBI card for buying OnePlus 5 device on Amazon. @1158",
+        "true_intent": "account_access",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_454549",
+        "query": "@AmazonHelp J'ai essay\u00e9 de commander Xenoblades 2 mais zouip, rupture de stock juste avant de conclu",
+        "true_intent": "non_english",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2449711",
+        "query": "@115850 @AmazonHelp Hi Team I got a Amazon giftcard today but while adding its showing invalid code.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2813475",
+        "query": "@AmazonHelp Okay - got a Sunday Amazon Delivery Service today. They had a picture of the door they d",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2518123",
+        "query": "@AmazonHelp my gift delivered to the wrong address even if previously communicated the right one via",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_822201",
+        "query": "@AmazonHelp hoping u can help prime photos... can u tell me why there's a discrepancy in the numbers",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.4,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1560840",
+        "query": "@AmazonHelp your a joke why has this happened? Again? I'm making a movie and I need this Tripod! (#a",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.4,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2483976",
+        "query": "Bonjour @14272. Apr\u00e8s commande \u00e0 @120533 @AmazonHelp le colis devait arriver aujourd'hui avant 16h00",
+        "true_intent": "non_english",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2350894",
+        "query": "@AmazonHelp @115821 75% of my recent orders have arrived late and your chat team has no answers.  Am",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1210196",
+        "query": "@AmazonHelp Hello, I accidentally purchased the full price prime and I am still a student, could som",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.4,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_751253",
+        "query": "@AmazonHelp: Hace casi 1 mes compr\u00e9 1 art\u00edculo y a pesar de que en el sitio aparece como disponible ",
+        "true_intent": "non_english",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1314594",
+        "query": "@AmazonHelp I am slightly frustrated with the availed service.please contact me I have an issue.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "general_inquiry",
+        "confidence": 0.3,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "name": "RAG Agent (Phase 5)",
+    "total": 30,
+    "correct": 22,
+    "accuracy": 0.7333333333333333,
+    "avg_confidence": 0.7407939960737286,
+    "per_intent": {
+      "delivery_issue": {
+        "total": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "order_problem": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0
+      },
+      "refund_return": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "account_access": {
+        "total": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      },
+      "billing_payment": {
+        "total": 7,
+        "correct": 3,
+        "accuracy": 0.42857142857142855
+      },
+      "technical_device": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      },
+      "prime_subscription": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "escalation_needed": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "non_english": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "resolution_confirmation": {
+        "total": 0,
+        "correct": 0,
+        "accuracy": 0
+      }
+    },
+    "predictions": [
+      {
+        "conversation_id": "conv_1972809",
+        "query": "@AmazonHelp hi is Amazon Prime not next day anymore?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.8961720369992889,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_390812",
+        "query": "Grade wieder Amazon Prime gekauft hab es einfach vermisst @AmazonHelp xD",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.5892993767485595,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_729359",
+        "query": "Hey @115821 you login verification codes are not getting sent... \"Resend code\" does not help... @Ama",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.9022939333037862,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_349400",
+        "query": "why won't my books ship . @AmazonHelp",
+        "true_intent": "billing_payment",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "technical_device",
+        "confidence": 0.5960900371788946,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_322861",
+        "query": "@15863 @AmazonHelp see wat happened toy sandal withn a mnth tym.Who s going to pay us for this #Nast",
+        "true_intent": "billing_payment",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.7916436381557355,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1410758",
+        "query": "@AmazonHelp does instant pick up show up only to those whose default addy is near the pickup area?",
+        "true_intent": "technical_app",
+        "predicted_intent": "general_inquiry",
+        "raw_predicted": "technical_device",
+        "confidence": 0.518963307013007,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2410448",
+        "query": "@AmazonHelp I selected free shipping so it should only be $129 right? https://t.co/2WMGqTNYXP",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.8246732312780441,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2777474",
+        "query": "LEFT AT FRONT DOOR. DIDN'T EVEN KNOCK ON THE BLOODY DOOR. BOOK DENTED, SPINE BROKEN. @AmazonHelp ???",
+        "true_intent": "technical_app",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.4301343928199055,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1322538",
+        "query": "@AmazonHelp My https://t.co/GXVXNgh8mt  account has been locked for using my virtual debit card . Is",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.5735093068752088,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2226499",
+        "query": "Por favor @AmazonHelp empezad a poner la factura en papel en todos los env\u00edos a Canarias. Normalment",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9516638135407298,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_448713",
+        "query": "@AmazonHelp Attempting to sign in to place an order. Requires \"verification code\" via email - why, I",
+        "true_intent": "account_access",
+        "predicted_intent": "account_access",
+        "raw_predicted": "account_access",
+        "confidence": 0.8737108458531356,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_179192",
+        "query": "@123583 Redeemed my @AmazonHelp preorder code on Sunday but just get \"Not available for purchase\" on",
+        "true_intent": "general_inquiry",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.34611837382582267,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2252986",
+        "query": "\u00bfAunque lo haya pedido en preventa lo van a empezar a enviar hasta el 14? @AmazonHelp @116875 https:",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9128099615788736,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1424702",
+        "query": "@AmazonHelp this is what I prime for really??? Only just updated - terrible!!!!! https://t.co/9ULRuO",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.8092454260705767,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_2405179",
+        "query": "@AmazonHelp Hi there, am I able to transfer my UK Prime account to IRL?",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.7018244305885251,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2276497",
+        "query": "@115830 @AmazonHelp I am a Prime member yet I am still waiting for my goods ordered on Thursday!!! S",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.6068198739718932,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_238917",
+        "query": "Hi @115850 the payment for a recent order did not go through earlier but now the money has been debi",
+        "true_intent": "billing_payment",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.8363188446732273,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2389707",
+        "query": "@AmazonHelp @115850 5 mins back received order. Why sending damaged product? Order Id:\u00a0408-1966445-1",
+        "true_intent": "order_problem",
+        "predicted_intent": "order_problem",
+        "raw_predicted": "order_problem",
+        "confidence": 0.7491034631632808,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1035123",
+        "query": "I did not receive cashback of1500 INR on using SBI card for buying OnePlus 5 device on Amazon. @1158",
+        "true_intent": "account_access",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.5620588515699037,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_454549",
+        "query": "@AmazonHelp J'ai essay\u00e9 de commander Xenoblades 2 mais zouip, rupture de stock juste avant de conclu",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9236335331334922,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2449711",
+        "query": "@115850 @AmazonHelp Hi Team I got a Amazon giftcard today but while adding its showing invalid code.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "escalation_needed",
+        "raw_predicted": "escalation_needed",
+        "confidence": 0.8554290962191695,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2813475",
+        "query": "@AmazonHelp Okay - got a Sunday Amazon Delivery Service today. They had a picture of the door they d",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.6921382564275699,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2518123",
+        "query": "@AmazonHelp my gift delivered to the wrong address even if previously communicated the right one via",
+        "true_intent": "delivery_issue",
+        "predicted_intent": "delivery_issue",
+        "raw_predicted": "delivery_issue",
+        "confidence": 0.6317399859043535,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_822201",
+        "query": "@AmazonHelp hoping u can help prime photos... can u tell me why there's a discrepancy in the numbers",
+        "true_intent": "billing_payment",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.7952272311191027,
+        "correct": false
+      },
+      {
+        "conversation_id": "conv_1560840",
+        "query": "@AmazonHelp your a joke why has this happened? Again? I'm making a movie and I need this Tripod! (#a",
+        "true_intent": "billing_payment",
+        "predicted_intent": "billing_payment",
+        "raw_predicted": "billing_payment",
+        "confidence": 0.5519730385219964,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2483976",
+        "query": "Bonjour @14272. Apr\u00e8s commande \u00e0 @120533 @AmazonHelp le colis devait arriver aujourd'hui avant 16h00",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9495365212002819,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_2350894",
+        "query": "@AmazonHelp @115821 75% of my recent orders have arrived late and your chat team has no answers.  Am",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "escalation_needed",
+        "raw_predicted": "escalation_needed",
+        "confidence": 0.8530977598955026,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1210196",
+        "query": "@AmazonHelp Hello, I accidentally purchased the full price prime and I am still a student, could som",
+        "true_intent": "prime_subscription",
+        "predicted_intent": "prime_subscription",
+        "raw_predicted": "prime_subscription",
+        "confidence": 0.8309224623008764,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_751253",
+        "query": "@AmazonHelp: Hace casi 1 mes compr\u00e9 1 art\u00edculo y a pesar de que en el sitio aparece como disponible ",
+        "true_intent": "non_english",
+        "predicted_intent": "non_english",
+        "raw_predicted": "non_english",
+        "confidence": 0.9400461132603875,
+        "correct": true
+      },
+      {
+        "conversation_id": "conv_1314594",
+        "query": "@AmazonHelp I am slightly frustrated with the availed service.please contact me I have an issue.",
+        "true_intent": "escalation_needed",
+        "predicted_intent": "escalation_needed",
+        "raw_predicted": "escalation_needed",
+        "confidence": 0.7276227390207312,
+        "correct": true
+      }
+    ]
+  }
+]

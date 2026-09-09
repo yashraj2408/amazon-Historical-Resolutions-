@@ -1,0 +1,155 @@
+{
+  "failure_analysis": {
+    "total_failures": 8,
+    "failure_rate_by_intent": {
+      "delivery_issue": 0.0,
+      "order_problem": 0.0,
+      "refund_return": 0,
+      "account_access": 0.25,
+      "billing_payment": 0.5714285714285714,
+      "technical_device": 0,
+      "prime_subscription": 0.0,
+      "escalation_needed": 0.0,
+      "non_english": 0.0,
+      "resolution_confirmation": 0
+    },
+    "confusion_pairs": {
+      "billing_payment\u2192prime_subscription": 3,
+      "billing_payment\u2192technical_device": 1,
+      "technical_app\u2192technical_device": 1,
+      "technical_app\u2192delivery_issue": 1,
+      "general_inquiry\u2192billing_payment": 1,
+      "account_access\u2192billing_payment": 1
+    },
+    "low_confidence_failures": 6,
+    "high_confidence_failures": 2,
+    "escalated_failures": 6,
+    "auto_handle_failures": 2,
+    "retrieval_quality_failures": 1,
+    "retrieval_quality_successes": 7,
+    "failure_examples": [
+      {
+        "query": "Grade wieder Amazon Prime gekauft hab es einfach vermisst @AmazonHelp xD",
+        "true": "billing_payment",
+        "pred": "prime_subscription",
+        "conf": 0.5892993767485595,
+        "decision": "ESCALATE",
+        "reason": "Low intent confidence (0.59 < 0.7)",
+        "max_sim": 0.5322777628898621
+      },
+      {
+        "query": "why won't my books ship . @AmazonHelp",
+        "true": "billing_payment",
+        "pred": "technical_device",
+        "conf": 0.5960900371788946,
+        "decision": "ESCALATE",
+        "reason": "Low intent confidence (0.60 < 0.7)",
+        "max_sim": 1.0
+      },
+      {
+        "query": "@AmazonHelp does instant pick up show up only to those whose default addy is near the pickup area?",
+        "true": "technical_app",
+        "pred": "technical_device",
+        "conf": 0.518963307013007,
+        "decision": "ESCALATE",
+        "reason": "Low intent confidence (0.52 < 0.7)",
+        "max_sim": 1.0
+      },
+      {
+        "query": "LEFT AT FRONT DOOR. DIDN'T EVEN KNOCK ON THE BLOODY DOOR. BOOK DENTED, SPINE BROKEN. @AmazonHelp ???",
+        "true": "technical_app",
+        "pred": "delivery_issue",
+        "conf": 0.4301343928199055,
+        "decision": "ESCALATE",
+        "reason": "Low intent confidence (0.43 < 0.7)",
+        "max_sim": 1.0
+      },
+      {
+        "query": "@123583 Redeemed my @AmazonHelp preorder code on Sunday but just get \"Not available for purchase\" on",
+        "true": "general_inquiry",
+        "pred": "billing_payment",
+        "conf": 0.34611837382582267,
+        "decision": "ESCALATE",
+        "reason": "Low intent confidence (0.35 < 0.7)",
+        "max_sim": 1.0
+      },
+      {
+        "query": "@AmazonHelp this is what I prime for really??? Only just updated - terrible!!!!! https://t.co/9ULRuO",
+        "true": "billing_payment",
+        "pred": "prime_subscription",
+        "conf": 0.8092454260705767,
+        "decision": "AUTO_HANDLE",
+        "reason": "High confidence (0.81), good retrieval match (1.00)",
+        "max_sim": 1.0
+      },
+      {
+        "query": "I did not receive cashback of1500 INR on using SBI card for buying OnePlus 5 device on Amazon. @1158",
+        "true": "account_access",
+        "pred": "billing_payment",
+        "conf": 0.5620588515699037,
+        "decision": "ESCALATE",
+        "reason": "Low intent confidence (0.56 < 0.7)",
+        "max_sim": 1.0000001192092896
+      },
+      {
+        "query": "@AmazonHelp hoping u can help prime photos... can u tell me why there's a discrepancy in the numbers",
+        "true": "billing_payment",
+        "pred": "prime_subscription",
+        "conf": 0.7952272311191027,
+        "decision": "AUTO_HANDLE",
+        "reason": "High confidence (0.80), good retrieval match (0.69)",
+        "max_sim": 0.691541314125061
+      }
+    ]
+  },
+  "misleading_metrics": {
+    "small_test_set": {
+      "metric": "Test accuracy (73.3%)",
+      "problem": "Only 30 test samples, 10 intents = ~3 samples per intent",
+      "impact": "High variance, not statistically significant",
+      "evidence": "Some intents have 0 test samples (refund_return, technical_device, resolution_confirmation)"
+    },
+    "class_imbalance": {
+      "metric": "Overall accuracy",
+      "problem": "Test set not balanced across intents",
+      "impact": "Accuracy dominated by majority classes (non_english, escalation_needed)",
+      "evidence": "non_english=5, escalation_needed=3, delivery_issue=4, account_access=4, billing_payment=7"
+    },
+    "golden_set_quality": {
+      "metric": "Human-labeled accuracy",
+      "problem": "Single annotator, no inter-annotator agreement measured",
+      "impact": "Labels may be inconsistent or wrong",
+      "evidence": "Cohen's Kappa not computed in Phase 2.2"
+    },
+    "auto_handle_threshold": {
+      "metric": "Auto-handle rate (53%)",
+      "problem": "Arbitrary 0.7 threshold, not optimized",
+      "impact": "Prime query (0.67 confidence) escalated despite correct intent",
+      "evidence": "Threshold trades off precision/recall without business justification"
+    },
+    "retrieval_vs_generation": {
+      "metric": "End-to-end quality",
+      "problem": "Only intent accuracy measured, not response quality",
+      "impact": "Good retrieval \u2260 good response; template responses not evaluated",
+      "evidence": "No human evaluation of generated responses"
+    },
+    "data_leakage_risk": {
+      "metric": "Train/test split",
+      "problem": "Split at conversation level but similar queries across conversations",
+      "impact": "Near-duplicate customer queries may appear in both train and test",
+      "evidence": "Many 'package delivered but not received' variants in dataset"
+    },
+    "intent_taxonomy_issues": {
+      "metric": "10-intent taxonomy",
+      "problem": "Billing vs Account merged but have different language; Prime vs Technical merged",
+      "impact": "Systematic confusion between billing_payment and account_access",
+      "evidence": "7 billing queries, 43% accuracy; 4 account queries, 75% accuracy"
+    },
+    "resolution_heuristic": {
+      "metric": "18,173 resolved candidates",
+      "problem": "Heuristic (resolution keywords OR \u22653 messages) \u2260 actual resolution",
+      "impact": "Many 'resolved' conversations may not be truly resolved",
+      "evidence": "Only keyword matching, no outcome verification"
+    }
+  }
+}

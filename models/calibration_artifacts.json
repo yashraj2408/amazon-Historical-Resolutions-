@@ -1,0 +1,31 @@
+{
+  "temperature": 0.62517277305535,
+  "thresholds": {
+    "account_access": 0.97,
+    "billing_payment": 0.73,
+    "delivery_issue": 0.82,
+    "escalation_needed": 1.0,
+    "non_english": 0.33,
+    "order_problem": 0.8099999999999999,
+    "prime_billing": 0.5,
+    "prime_subscription": 0.95,
+    "refund_return": 0.8,
+    "resolution_confirmation": 0.1,
+    "technical_app": 0.5,
+    "technical_device": 0.1
+  },
+  "intent_classes": [
+    "account_access",
+    "billing_payment",
+    "delivery_issue",
+    "escalation_needed",
+    "non_english",
+    "order_problem",
+    "prime_billing",
+    "prime_subscription",
+    "refund_return",
+    "resolution_confirmation",
+    "technical_app",
+    "technical_device"
+  ]
+}

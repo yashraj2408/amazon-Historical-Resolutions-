@@ -1,0 +1,57 @@
+{
+  "intents": [
+    "delivery_issue",
+    "order_problem",
+    "refund_return",
+    "account_access",
+    "technical_app",
+    "billing_payment",
+    "prime_subscription",
+    "seller_marketplace",
+    "gift_card",
+    "general_inquiry",
+    "escalation_needed",
+    "non_english",
+    "spam_irrelevant",
+    "resolution_confirmation"
+  ],
+  "intent_descriptions": {
+    "delivery_issue": "Package delivery problems: late, missing, tracking, 'delivered but not received'",
+    "order_problem": "Order content issues: wrong item, missing item, damaged, cancel order",
+    "refund_return": "Refund requests, return process, replacements, return labels",
+    "account_access": "Login, password reset, account locked, verification, email issues",
+    "technical_app": "App/website errors, device issues (Alexa, Echo, Kindle, Fire TV)",
+    "billing_payment": "Unauthorized charges, billing questions, payment failures",
+    "prime_subscription": "Prime membership, student pricing, subscription management",
+    "seller_marketplace": "Third-party seller issues, marketplace orders",
+    "gift_card": "Gift card balance, redemption, issues",
+    "general_inquiry": "Product questions, policy, how-to, general help",
+    "escalation_needed": "Complex issues needing specialist: fraud, legal, persistent unresolved",
+    "non_english": "Non-English conversations (Spanish, French, German, etc.)",
+    "spam_irrelevant": "Promotional, quiz, marketing, non-support content",
+    "resolution_confirmation": "Customer confirms resolution / thanks support"
+  },
+  "entity_types": [
+    "order_id",
+    "product_name",
+    "tracking_number",
+    "account_email",
+    "device_type",
+    "seller_name",
+    "amount",
+    "date"
+  ],
+  "resolution_values": [
+    "yes",
+    "no",
+    "partial",
+    "unclear"
+  ],
+  "annotation_fields": [
+    "annotated_intent",
+    "annotated_entities",
+    "annotated_resolution",
+    "annotator_notes",
+    "annotator_id"
+  ]
+}
