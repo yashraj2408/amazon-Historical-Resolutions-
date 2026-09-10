@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { api } from '../services/api';
 import Dropzone from '../components/upload/Dropzone';
@@ -11,13 +11,34 @@ export default function Upload() {
   const [jobId, setJobId] = useState(null);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
+  const pollTimeoutRef = useRef(null);
 
   const handleFilesChange = useCallback((newFiles) => {
     setFiles(newFiles);
     setError(null);
   }, []);
 
-  const handleUpload = async () => {
+  const pollJobStatus = useCallback(async (jobId) => {
+    const checkStatus = async () => {
+      try {
+        const job = await api.getJobStatus(jobId);
+        if (job.status === 'completed') {
+          navigate(`/results/${jobId}`);
+        } else if (job.status === 'failed') {
+          setError(job.error || 'Processing failed');
+          setUploading(false);
+        } else {
+          setTimeout(checkStatus, 2000);
+        }
+      } catch (err) {
+        setError(err.message);
+        setUploading(false);
+      }
+    };
+    checkStatus();
+  }, [navigate]);
+
+  const handleUpload = useCallback(async () => {
     if (files.length === 0) {
       setError('Please select at least one photo');
       return;
@@ -29,34 +50,12 @@ export default function Upload() {
     try {
       const response = await api.uploadPhotos(files);
       setJobId(response.job_id);
-      // Poll for job completion
       pollJobStatus(response.job_id);
     } catch (err) {
       setError(err.message || 'Upload failed');
       setUploading(false);
     }
-  }, [files]);
-
-  const pollJobStatus = async (jobId) => {
-    const checkStatus = async () => {
-      try {
-        const job = await api.getJobStatus(jobId);
-        if (job.status === 'completed') {
-          navigate(`/results/${jobId}`);
-        } else if (job.status === 'failed') {
-          setError(job.error || 'Processing failed');
-          setUploading(false);
-        } else {
-          // Still processing, check again in 2 seconds
-          setTimeout(checkStatus, 2000);
-        }
-      } catch (err) {
-        setError(err.message);
-        setUploading(false);
-      }
-    };
-    checkStatus();
-  };
+  }, [files, pollJobStatus]);
 
   const handleRemoveFile = useCallback((index) => {
     setFiles(prev => prev.filter((_, i) => i !== index));
