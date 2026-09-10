@@ -98,4 +98,3 @@ export default function Results() {
   );
 }
 
-export default Results;
