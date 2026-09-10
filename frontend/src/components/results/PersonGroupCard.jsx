@@ -15,7 +15,7 @@ export default function PersonGroupCard({ group }) {
             src={group.representative_face}
             alt={`Person ${group.person_id}`}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-          )
+          />
         ) : (
           <div className="w-full h-full flex items-center justify-center bg-gray-100">
             <svg className="w-16 h-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
