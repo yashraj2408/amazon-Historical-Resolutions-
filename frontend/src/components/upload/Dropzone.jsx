@@ -109,4 +109,3 @@ export default function Dropzone({ files, onFilesChange, onRemoveFile, disabled 
   );
 }
 
-export default Dropzone;

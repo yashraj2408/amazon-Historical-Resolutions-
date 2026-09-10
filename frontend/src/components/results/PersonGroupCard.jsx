@@ -48,4 +48,3 @@ export default function PersonGroupCard({ group }) {
   );
 }
 
-export default PersonGroupCard;

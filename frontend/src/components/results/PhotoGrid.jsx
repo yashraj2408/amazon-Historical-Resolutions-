@@ -49,4 +49,3 @@ export default function PhotoGrid({ photos }) {
   );
 }
 
-export default PhotoGrid;

@@ -46,4 +46,3 @@ export default function ImagePreview({ file }) {
   );
 }
 
-export default ImagePreview;
